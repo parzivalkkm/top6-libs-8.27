@@ -1,0 +1,22 @@
+{
+  "soName": "unknown",
+  "moduleName": "commonability",
+  "propertyRegistrations": [
+    {
+      "propertyName": "",
+      "address": "0x315938",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 1,
+    "propertyRegistrationsCount": 1,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-28T08:06:23.546052900Z"
+  }
+}

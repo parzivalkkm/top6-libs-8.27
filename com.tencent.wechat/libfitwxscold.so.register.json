@@ -1,0 +1,147 @@
+{
+  "soName": "unknown",
+  "moduleName": "fitwxscold",
+  "propertyRegistrations": [
+    {
+      "propertyName": "legacyHasCert",
+      "address": "0x128be4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getHkAlgoToken",
+      "address": "0x12a9c4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyGetVersion",
+      "address": "0x12b270",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyClearAllCert",
+      "address": "0x129b48",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyCertSign",
+      "address": "0x128ecc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyGetTokenCount",
+      "address": "0x129f0c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyMakeCsr",
+      "address": "0x1287c8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "aesCbcDecrypt",
+      "address": "0x12af68",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyClearToken",
+      "address": "0x12a060",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyGetToken",
+      "address": "0x129d6c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacySetToken",
+      "address": "0x129b84",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyGetCertError",
+      "address": "0x1285a4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyClearCert",
+      "address": "0x129a00",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyTestGetAllocCount",
+      "address": "0x12b268",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacySignDataWith3des",
+      "address": "0x12a584",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyCertDecrypt",
+      "address": "0x129718",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyImportCert",
+      "address": "0x1289fc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyEncryptDataWith3des",
+      "address": "0x12a3b4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyCertEncrypt",
+      "address": "0x129430",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyGetCryptoError",
+      "address": "0x12a1bc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "aesCbcEncrypt",
+      "address": "0x12ac1c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyInit",
+      "address": "0x1285b4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyGetCertValidTime",
+      "address": "0x128d28",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyCertVerify",
+      "address": "0x1291b4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "legacyEncryptPassword",
+      "address": "0x12a1cc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "encryptHkPassword",
+      "address": "0x12a714",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 26,
+    "propertyRegistrationsCount": 26,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T14:19:54.129770100Z"
+  }
+}

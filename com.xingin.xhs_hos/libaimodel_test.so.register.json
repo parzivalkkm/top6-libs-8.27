@@ -1,0 +1,22 @@
+{
+  "soName": "unknown",
+  "moduleName": "aimodel_test",
+  "propertyRegistrations": [
+    {
+      "propertyName": "add",
+      "address": "0x101b30",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 1,
+    "propertyRegistrationsCount": 1,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T13:21:42.069412700Z"
+  }
+}

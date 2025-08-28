@@ -1,0 +1,3743 @@
+{
+    "hap_name": "@TEST_HAP_NAME",
+    "so_name": "libjdface_napi.so",
+    "module_name": "jdface_napi",
+    "functions": [
+        {
+            "name": "detectResume",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "callsite": "1086956",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 3",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"to native detect resume ...\""
+                    ],
+                    "rets": {
+                        "%0": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%1",
+                    "type": "Phi"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%2",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1087012",
+                    "target": "napi_get_cb_info",
+                    "operands": [
+                        "%1",
+                        "%2",
+                        "top",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%3": "-1",
+                        "%4": "3",
+                        "%5": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%6",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1087076",
+                    "target": "napi_get_value_uint32",
+                    "operands": [
+                        "%6",
+                        "%5",
+                        "top"
+                    ],
+                    "rets": {
+                        "%7": "-1",
+                        "%8": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1087192",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "%7",
+                        "long 3",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"get token length: %{public}d\"",
+                        "%8"
+                    ],
+                    "rets": {
+                        "%9": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%10",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1087260",
+                    "target": "napi_get_value_string_utf8",
+                    "operands": [
+                        "%10",
+                        "%4",
+                        "%8",
+                        "%8",
+                        "top"
+                    ],
+                    "rets": {
+                        "%11": "-1",
+                        "%12": "4"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1087296",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 5",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"napi_get_value_string_utf8 failed\""
+                    ],
+                    "rets": {
+                        "%13": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1087368",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 5",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"the token length is wrong! \""
+                    ],
+                    "rets": {
+                        "%14": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "char* \"face sdk not inited!\"",
+                        "char* \"napi_get_value_uint32 failed\"",
+                        "char* \"api_get_cb_info failed\"",
+                        "char* \"the token length is wrong!\""
+                    ],
+                    "ret": "%15",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1087112",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 5",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "%15"
+                    ],
+                    "rets": {
+                        "%16": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "top",
+                    "type": "Ret"
+                }
+            ]
+        },
+        {
+            "name": "init",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "callsite": "1085776",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 3",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"to native init ...\""
+                    ],
+                    "rets": {
+                        "%0": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%1",
+                    "type": "Phi"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%2",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1085840",
+                    "target": "napi_get_cb_info",
+                    "operands": [
+                        "%1",
+                        "%2",
+                        "top",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%3": "-1",
+                        "%4": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1085876",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 5",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"api_get_cb_info failed\""
+                    ],
+                    "rets": {
+                        "%5": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%6",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1085920",
+                    "target": "napi_get_value_string_utf8",
+                    "operands": [
+                        "%6",
+                        "%4",
+                        "char* \"\"",
+                        "long 20",
+                        "top"
+                    ],
+                    "rets": {
+                        "%7": "-1",
+                        "%8": "4"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1085956",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 5",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"napi_get_value_string_utf8 failed\""
+                    ],
+                    "rets": {
+                        "%9": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1086004",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 3",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"do native init\""
+                    ],
+                    "rets": {
+                        "%10": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%11",
+                    "type": "Phi"
+                },
+                {
+                    "operands": [
+                        "long 0",
+                        "long 1"
+                    ],
+                    "ret": "%12",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122700",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%11",
+                        "%12",
+                        "top"
+                    ],
+                    "rets": {
+                        "%13": "-1",
+                        "%14": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%15",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122716",
+                    "target": "napi_coerce_to_bool",
+                    "operands": [
+                        "%15",
+                        "%14",
+                        "top"
+                    ],
+                    "rets": {
+                        "%16": "-1",
+                        "%17": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "top",
+                    "type": "Ret"
+                }
+            ]
+        },
+        {
+            "name": "getFrameInfo",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "callsite": "1117212",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 3",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"to convert FrameInfo to js object\""
+                    ],
+                    "rets": {
+                        "%0": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%1",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1117228",
+                    "target": "napi_create_object",
+                    "operands": [
+                        "%1",
+                        "top"
+                    ],
+                    "rets": {
+                        "%2": "-1",
+                        "%3": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%4",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122444",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%4",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%5": "-1",
+                        "%6": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%7",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122444",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%7",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%8": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%9",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122444",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%9",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%10": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%11",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122444",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%11",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%12": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%13",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122444",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%13",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%14": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%15",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122444",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%15",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%16": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%17",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122444",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%17",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%18": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%19",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122444",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%19",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%20": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%21",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1117332",
+                    "target": "napi_set_named_property",
+                    "operands": [
+                        "%21",
+                        "top",
+                        "char* \"frame_num\"",
+                        "%6"
+                    ],
+                    "rets": {
+                        "%22": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%23",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1117372",
+                    "target": "napi_set_named_property",
+                    "operands": [
+                        "%23",
+                        "top",
+                        "char* \"find_face\"",
+                        "%6"
+                    ],
+                    "rets": {
+                        "%24": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%25",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1117412",
+                    "target": "napi_set_named_property",
+                    "operands": [
+                        "%25",
+                        "top",
+                        "char* \"frame_out\"",
+                        "%6"
+                    ],
+                    "rets": {
+                        "%26": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%27",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1117452",
+                    "target": "napi_set_named_property",
+                    "operands": [
+                        "%27",
+                        "top",
+                        "char* \"frame_far\"",
+                        "%6"
+                    ],
+                    "rets": {
+                        "%28": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%29",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1117492",
+                    "target": "napi_set_named_property",
+                    "operands": [
+                        "%29",
+                        "top",
+                        "char* \"frame_near\"",
+                        "%6"
+                    ],
+                    "rets": {
+                        "%30": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%31",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1117532",
+                    "target": "napi_set_named_property",
+                    "operands": [
+                        "%31",
+                        "top",
+                        "char* \"frame_blink\"",
+                        "%6"
+                    ],
+                    "rets": {
+                        "%32": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%33",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1117572",
+                    "target": "napi_set_named_property",
+                    "operands": [
+                        "%33",
+                        "top",
+                        "char* \"frame_pose\"",
+                        "%6"
+                    ],
+                    "rets": {
+                        "%34": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%35",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1117612",
+                    "target": "napi_set_named_property",
+                    "operands": [
+                        "%35",
+                        "top",
+                        "char* \"frame_blur\"",
+                        "%6"
+                    ],
+                    "rets": {
+                        "%36": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "char* \"input frameInfo is null!\"",
+                        "char* \"napi_create_object failed\""
+                    ],
+                    "ret": "%37",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1117284",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 5",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "%37"
+                    ],
+                    "rets": {
+                        "%38": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1088648",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 5",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"face sdk not inited!\""
+                    ],
+                    "rets": {
+                        "%39": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "top",
+                    "type": "Ret"
+                }
+            ]
+        },
+        {
+            "name": "setFaceConfig",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "callsite": "1086312",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 3",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"to native set face config ...\""
+                    ],
+                    "rets": {
+                        "%0": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%1",
+                    "type": "Phi"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%2",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1086364",
+                    "target": "napi_get_cb_info",
+                    "operands": [
+                        "%1",
+                        "%2",
+                        "top",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%3": "-1",
+                        "%4": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "char* \"face sdk not inited!\"",
+                        "char* \"api_get_cb_info failed\""
+                    ],
+                    "ret": "%5",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1086420",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 5",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "%5"
+                    ],
+                    "rets": {
+                        "%6": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1086512",
+                    "target": "operator.new",
+                    "operands": [
+                        "long 192"
+                    ],
+                    "rets": {
+                        "%7": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1115036",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 3",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"to convert FaceConfig to c struct\""
+                    ],
+                    "rets": {
+                        "%8": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1117120",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 5",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"input faceConfig is null!\""
+                    ],
+                    "rets": {
+                        "%9": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%10",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115064",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%10",
+                        "%4",
+                        "char* \"flagMutipleFace\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%11": "-1",
+                        "%12": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%13",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%13",
+                        "%12",
+                        "top"
+                    ],
+                    "rets": {
+                        "%14": "-1",
+                        "%15": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%16",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%16",
+                        "%60",
+                        "top"
+                    ],
+                    "rets": {
+                        "%17": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%18",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%18",
+                        "%67",
+                        "top"
+                    ],
+                    "rets": {
+                        "%19": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%20",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%20",
+                        "%121",
+                        "top"
+                    ],
+                    "rets": {
+                        "%21": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%22",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%22",
+                        "%124",
+                        "top"
+                    ],
+                    "rets": {
+                        "%23": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%24",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%24",
+                        "%127",
+                        "top"
+                    ],
+                    "rets": {
+                        "%25": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%26",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%26",
+                        "%130",
+                        "top"
+                    ],
+                    "rets": {
+                        "%27": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%28",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%28",
+                        "%133",
+                        "top"
+                    ],
+                    "rets": {
+                        "%29": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%30",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%30",
+                        "%154",
+                        "top"
+                    ],
+                    "rets": {
+                        "%31": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%32",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%32",
+                        "%157",
+                        "top"
+                    ],
+                    "rets": {
+                        "%33": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%34",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%34",
+                        "%167",
+                        "top"
+                    ],
+                    "rets": {
+                        "%35": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%36",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%36",
+                        "%171",
+                        "top"
+                    ],
+                    "rets": {
+                        "%37": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%38",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%38",
+                        "%186",
+                        "top"
+                    ],
+                    "rets": {
+                        "%39": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%40",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%40",
+                        "%189",
+                        "top"
+                    ],
+                    "rets": {
+                        "%41": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%42",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%42",
+                        "%192",
+                        "top"
+                    ],
+                    "rets": {
+                        "%43": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%44",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%44",
+                        "%195",
+                        "top"
+                    ],
+                    "rets": {
+                        "%45": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%46",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%46",
+                        "%198",
+                        "top"
+                    ],
+                    "rets": {
+                        "%47": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%48",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%48",
+                        "%207",
+                        "top"
+                    ],
+                    "rets": {
+                        "%49": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%50",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%50",
+                        "%210",
+                        "top"
+                    ],
+                    "rets": {
+                        "%51": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%52",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%52",
+                        "%222",
+                        "top"
+                    ],
+                    "rets": {
+                        "%53": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%54",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%54",
+                        "%225",
+                        "top"
+                    ],
+                    "rets": {
+                        "%55": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%56",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1121932",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%56",
+                        "%228",
+                        "top"
+                    ],
+                    "rets": {
+                        "%57": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%58",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115104",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%58",
+                        "%4",
+                        "char* \"flagForceRefine\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%59": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%58",
+                        "%4",
+                        "char* \"flagForceRefine\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%60": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%61",
+                    "type": "Phi"
+                },
+                {
+                    "operands": [
+                        "%7",
+                        "%15"
+                    ],
+                    "ret": "%62",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115140",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%61",
+                        "%60",
+                        "%62"
+                    ],
+                    "rets": {
+                        "%63": "-1",
+                        "%64": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%65",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115164",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%65",
+                        "%4",
+                        "char* \"flagRotate\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%66": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%65",
+                        "%4",
+                        "char* \"flagRotate\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%67": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%68",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115204",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%68",
+                        "%4",
+                        "char* \"faceBoundCenterX\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%69": "-1",
+                        "%70": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%71",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%71",
+                        "%70",
+                        "top"
+                    ],
+                    "rets": {
+                        "%72": "-1",
+                        "%73": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%74",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%74",
+                        "%112",
+                        "top"
+                    ],
+                    "rets": {
+                        "%75": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%76",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%76",
+                        "%115",
+                        "top"
+                    ],
+                    "rets": {
+                        "%77": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%78",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%78",
+                        "%118",
+                        "top"
+                    ],
+                    "rets": {
+                        "%79": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%80",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%80",
+                        "%136",
+                        "top"
+                    ],
+                    "rets": {
+                        "%81": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%82",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%82",
+                        "%139",
+                        "top"
+                    ],
+                    "rets": {
+                        "%83": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%84",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%84",
+                        "%142",
+                        "top"
+                    ],
+                    "rets": {
+                        "%85": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%86",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%86",
+                        "%145",
+                        "top"
+                    ],
+                    "rets": {
+                        "%87": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%88",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%88",
+                        "%148",
+                        "top"
+                    ],
+                    "rets": {
+                        "%89": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%90",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%90",
+                        "%151",
+                        "top"
+                    ],
+                    "rets": {
+                        "%91": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%92",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%92",
+                        "%174",
+                        "top"
+                    ],
+                    "rets": {
+                        "%93": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%94",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%94",
+                        "%177",
+                        "top"
+                    ],
+                    "rets": {
+                        "%95": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%96",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%96",
+                        "%180",
+                        "top"
+                    ],
+                    "rets": {
+                        "%97": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%98",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%98",
+                        "%183",
+                        "top"
+                    ],
+                    "rets": {
+                        "%99": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%100",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%100",
+                        "%201",
+                        "top"
+                    ],
+                    "rets": {
+                        "%101": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%102",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%102",
+                        "%204",
+                        "top"
+                    ],
+                    "rets": {
+                        "%103": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%104",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%104",
+                        "%213",
+                        "top"
+                    ],
+                    "rets": {
+                        "%105": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%106",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%106",
+                        "%216",
+                        "top"
+                    ],
+                    "rets": {
+                        "%107": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%108",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1122016",
+                    "target": "napi_get_value_double",
+                    "operands": [
+                        "%108",
+                        "%219",
+                        "top"
+                    ],
+                    "rets": {
+                        "%109": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%110",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115244",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%110",
+                        "%4",
+                        "char* \"faceBoundCenterY\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%111": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%110",
+                        "%4",
+                        "char* \"faceBoundCenterY\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%112": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%113",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115284",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%113",
+                        "%4",
+                        "char* \"faceBoundWidth\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%114": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%113",
+                        "%4",
+                        "char* \"faceBoundWidth\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%115": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%116",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115324",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%116",
+                        "%4",
+                        "char* \"faceBoundHeight\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%117": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%116",
+                        "%4",
+                        "char* \"faceBoundHeight\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%118": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%119",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115364",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%119",
+                        "%4",
+                        "char* \"faceMaxArea\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%120": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%119",
+                        "%4",
+                        "char* \"faceMaxArea\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%121": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%122",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115404",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%122",
+                        "%4",
+                        "char* \"faceMinArea\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%123": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%122",
+                        "%4",
+                        "char* \"faceMinArea\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%124": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%125",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115444",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%125",
+                        "%4",
+                        "char* \"slffMode\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%126": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%125",
+                        "%4",
+                        "char* \"slffMode\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%127": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%128",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115484",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%128",
+                        "%4",
+                        "char* \"faceSnapshotTimes\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%129": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%128",
+                        "%4",
+                        "char* \"faceSnapshotTimes\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%130": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%131",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115524",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%131",
+                        "%4",
+                        "char* \"continueStaticTimes\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%132": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%131",
+                        "%4",
+                        "char* \"continueStaticTimes\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%133": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%134",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115564",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%134",
+                        "%4",
+                        "char* \"angleUp\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%135": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%134",
+                        "%4",
+                        "char* \"angleUp\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%136": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%137",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115604",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%137",
+                        "%4",
+                        "char* \"angleDown\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%138": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%137",
+                        "%4",
+                        "char* \"angleDown\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%139": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%140",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115644",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%140",
+                        "%4",
+                        "char* \"angleLeft\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%141": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%140",
+                        "%4",
+                        "char* \"angleLeft\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%142": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%143",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115684",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%143",
+                        "%4",
+                        "char* \"angleRight\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%144": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%143",
+                        "%4",
+                        "char* \"angleRight\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%145": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%146",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115724",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%146",
+                        "%4",
+                        "char* \"overlapArea1\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%147": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%146",
+                        "%4",
+                        "char* \"overlapArea1\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%148": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%149",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115764",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%149",
+                        "%4",
+                        "char* \"overlapArea2\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%150": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%149",
+                        "%4",
+                        "char* \"overlapArea2\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%151": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%152",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115804",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%152",
+                        "%4",
+                        "char* \"faceImgScale\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%153": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%152",
+                        "%4",
+                        "char* \"faceImgScale\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%154": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%155",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115848",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%155",
+                        "%4",
+                        "char* \"liveMode\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%156": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%155",
+                        "%4",
+                        "char* \"liveMode\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%157": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%158",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115888",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%158",
+                        "%4",
+                        "char* \"actions\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%159": "-1",
+                        "%160": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%161",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1115908",
+                    "target": "napi_get_array_length",
+                    "operands": [
+                        "%161",
+                        "%160",
+                        "top"
+                    ],
+                    "rets": {
+                        "%162": "-1",
+                        "%163": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1115944",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 3",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"actions array len: %{public}d\"",
+                        "%163"
+                    ],
+                    "rets": {
+                        "%164": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%165",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116012",
+                    "target": "napi_get_element",
+                    "operands": [
+                        "%165",
+                        "%163",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%166": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%165",
+                        "%163",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%167": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1116116",
+                    "target": "operator.new",
+                    "operands": [
+                        "long -4"
+                    ],
+                    "rets": {
+                        "%168": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%169",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116204",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%169",
+                        "%4",
+                        "char* \"liveContinueNum\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%170": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%169",
+                        "%4",
+                        "char* \"liveContinueNum\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%171": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%172",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116244",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%172",
+                        "%4",
+                        "char* \"thShake\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%173": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%172",
+                        "%4",
+                        "char* \"thShake\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%174": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%175",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116284",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%175",
+                        "%4",
+                        "char* \"thNod\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%176": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%175",
+                        "%4",
+                        "char* \"thNod\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%177": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%178",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116324",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%178",
+                        "%4",
+                        "char* \"thCameraMove\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%179": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%178",
+                        "%4",
+                        "char* \"thCameraMove\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%180": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%181",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116364",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%181",
+                        "%4",
+                        "char* \"livnessBoundScale\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%182": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%181",
+                        "%4",
+                        "char* \"livnessBoundScale\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%183": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%184",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116404",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%184",
+                        "%4",
+                        "char* \"flagAfterSuccess\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%185": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%184",
+                        "%4",
+                        "char* \"flagAfterSuccess\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%186": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%187",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116444",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%187",
+                        "%4",
+                        "char* \"imageType\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%188": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%187",
+                        "%4",
+                        "char* \"imageType\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%189": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%190",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116484",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%190",
+                        "%4",
+                        "char* \"outputRotate\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%191": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%190",
+                        "%4",
+                        "char* \"outputRotate\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%192": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%193",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116524",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%193",
+                        "%4",
+                        "char* \"flagBlinkDetect\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%194": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%193",
+                        "%4",
+                        "char* \"flagBlinkDetect\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%195": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%196",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116564",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%196",
+                        "%4",
+                        "char* \"detectFaceSize\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%197": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%196",
+                        "%4",
+                        "char* \"detectFaceSize\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%198": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%199",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116604",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%199",
+                        "%4",
+                        "char* \"detectFaceScale\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%200": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%199",
+                        "%4",
+                        "char* \"detectFaceScale\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%201": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%202",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116644",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%202",
+                        "%4",
+                        "char* \"frameOutOverlap\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%203": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%202",
+                        "%4",
+                        "char* \"frameOutOverlap\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%204": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%205",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116684",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%205",
+                        "%4",
+                        "char* \"flagOccDetect\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%206": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%205",
+                        "%4",
+                        "char* \"flagOccDetect\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%207": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%208",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116724",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%208",
+                        "%4",
+                        "char* \"occNotifyTimes\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%209": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%208",
+                        "%4",
+                        "char* \"occNotifyTimes\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%210": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%211",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116764",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%211",
+                        "%4",
+                        "char* \"thOccMouth\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%212": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%211",
+                        "%4",
+                        "char* \"thOccMouth\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%213": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%214",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116804",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%214",
+                        "%4",
+                        "char* \"thOccEye\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%215": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%214",
+                        "%4",
+                        "char* \"thOccEye\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%216": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%217",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116844",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%217",
+                        "%4",
+                        "char* \"thBrightness\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%218": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%217",
+                        "%4",
+                        "char* \"thBrightness\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%219": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%220",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116884",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%220",
+                        "%4",
+                        "char* \"concatSize\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%221": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%220",
+                        "%4",
+                        "char* \"concatSize\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%222": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%223",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116924",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%223",
+                        "%4",
+                        "char* \"concatConfuse\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%224": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%223",
+                        "%4",
+                        "char* \"concatConfuse\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%225": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%226",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1116964",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%226",
+                        "%4",
+                        "char* \"flagLog\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%227": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%226",
+                        "%4",
+                        "char* \"flagLog\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%228": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1086604",
+                    "target": "operator.new",
+                    "operands": [
+                        "top"
+                    ],
+                    "rets": {
+                        "%229": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "top",
+                    "type": "Ret"
+                }
+            ]
+        },
+        {
+            "name": "setImgSavePath",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%0",
+                    "type": "Phi"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%1",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1089020",
+                    "target": "napi_get_cb_info",
+                    "operands": [
+                        "%0",
+                        "%1",
+                        "top",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%2": "-1",
+                        "%3": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%4",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1089100",
+                    "target": "napi_get_value_string_utf8",
+                    "operands": [
+                        "%4",
+                        "%3",
+                        "char* \"\"",
+                        "long 20",
+                        "top"
+                    ],
+                    "rets": {
+                        "%5": "-1",
+                        "%6": "4"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "char* \"face sdk not inited!\"",
+                        "char* \"api_get_cb_info failed\"",
+                        "char* \"napi_get_value_string_utf8 failed\""
+                    ],
+                    "ret": "%7",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1089136",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 5",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "%7"
+                    ],
+                    "rets": {
+                        "%8": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "top",
+                    "type": "Ret"
+                }
+            ]
+        },
+        {
+            "name": "release",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "callsite": "1089548",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 5",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"face sdk not inited!\""
+                    ],
+                    "rets": {
+                        "%0": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "top",
+                    "type": "Ret"
+                }
+            ]
+        },
+        {
+            "name": "getSdkInfo",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%0",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1088788",
+                    "target": "napi_create_string_utf8",
+                    "operands": [
+                        "%0",
+                        "top",
+                        "long -1",
+                        "top"
+                    ],
+                    "rets": {
+                        "%1": "-1",
+                        "%2": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1088824",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 5",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"napi_create_string_utf8 failed!\""
+                    ],
+                    "rets": {
+                        "%3": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "top",
+                    "type": "Ret"
+                }
+            ]
+        },
+        {
+            "name": "detect",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "callsite": "1087476",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 3",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"to native detect ...\""
+                    ],
+                    "rets": {
+                        "%0": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%1",
+                    "type": "Phi"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%2",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1087536",
+                    "target": "napi_get_cb_info",
+                    "operands": [
+                        "%1",
+                        "%2",
+                        "top",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%3": "-1",
+                        "%4": "3",
+                        "%5": "3",
+                        "%6": "3",
+                        "%7": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%8",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1087648",
+                    "target": "napi_get_value_uint32",
+                    "operands": [
+                        "%8",
+                        "%5",
+                        "top"
+                    ],
+                    "rets": {
+                        "%9": "-1",
+                        "%10": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%11",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1087668",
+                    "target": "napi_get_value_uint32",
+                    "operands": [
+                        "%11",
+                        "%6",
+                        "top"
+                    ],
+                    "rets": {
+                        "%12": "-1",
+                        "%13": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1087892",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 3",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"FaceSdkNapi::faceManager.DetectFaceFrame result is: %{public}d\"",
+                        "long 1135224"
+                    ],
+                    "rets": {
+                        "%14": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "char* \"napi_get_arraybuffer_info failed\"",
+                        "char* \"face sdk not inited!\"",
+                        "char* \"napi_create_reference failed\"",
+                        "char* \"napi_get_value_uint32 failed\"",
+                        "char* \"api_get_cb_info failed\""
+                    ],
+                    "ret": "%15",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1087704",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 5",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "%15"
+                    ],
+                    "rets": {
+                        "%16": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "top",
+                    "type": "Ret"
+                }
+            ]
+        },
+        {
+            "name": "setConcatControl",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%0",
+                    "type": "Phi"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%1",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1088332",
+                    "target": "napi_get_cb_info",
+                    "operands": [
+                        "%0",
+                        "%1",
+                        "top",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%2": "-1",
+                        "%3": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a2",
+                        "%a1"
+                    ],
+                    "ret": "%4",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1088396",
+                    "target": "napi_get_value_uint32",
+                    "operands": [
+                        "%4",
+                        "%3",
+                        "top"
+                    ],
+                    "rets": {
+                        "%5": "-1",
+                        "%6": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1088508",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "%5",
+                        "long 3",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "char* \"face ConcatControl of flag: %{public}d\"",
+                        "%6"
+                    ],
+                    "rets": {
+                        "%7": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "char* \"face sdk not inited!\"",
+                        "char* \"napi_get_value_uint32 failed\"",
+                        "char* \"api_get_cb_info failed\""
+                    ],
+                    "ret": "%8",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1088432",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 5",
+                        "long 0",
+                        "char* \"FACE_SDK_NAPI\"",
+                        "%8"
+                    ],
+                    "rets": {
+                        "%9": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "top",
+                    "type": "Ret"
+                }
+            ]
+        }
+    ]
+}

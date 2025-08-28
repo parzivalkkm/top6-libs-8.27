@@ -1,0 +1,147 @@
+{
+  "soName": "unknown",
+  "moduleName": "ignet",
+  "propertyRegistrations": [
+    {
+      "propertyName": "setLogger",
+      "address": "0x6ef5c4",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [
+    {
+      "className": "HttpRequest",
+      "constructor": {
+        "address": "0x6f8d70"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "RpcStreamObserver",
+      "constructor": {
+        "address": "0x6f0874"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "RpcStreamProvider",
+      "constructor": {
+        "address": "0x6f2e4c"
+      },
+      "methods": [
+        {
+          "methodName": "asyncSend",
+          "address": "0x6f2d54",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "asyncSend",
+          "methodAddress": "0x6f2d54"
+        }
+      ]
+    },
+    {
+      "className": "RpcEngine",
+      "constructor": {
+        "address": "0x6e864c"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "HttpStreamObserver",
+      "constructor": {
+        "address": "0x6f3e90"
+      },
+      "methods": [
+        {
+          "methodName": "onError",
+          "address": "0x6f3b20",
+          "type": "method"
+        },
+        {
+          "methodName": "onHeader",
+          "address": "0x6f37b0",
+          "type": "method"
+        },
+        {
+          "methodName": "onComplete",
+          "address": "0x6f3cd8",
+          "type": "method"
+        },
+        {
+          "methodName": "onNext",
+          "address": "0x6f3968",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "onError",
+          "methodAddress": "0x6f3b20"
+        },
+        {
+          "propertyName": "onHeader",
+          "methodAddress": "0x6f37b0"
+        },
+        {
+          "propertyName": "onComplete",
+          "methodAddress": "0x6f3cd8"
+        },
+        {
+          "propertyName": "onNext",
+          "methodAddress": "0x6f3968"
+        }
+      ]
+    },
+    {
+      "className": "HttpEngine",
+      "constructor": {
+        "address": "0x6f7870"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "RpcFinishListener",
+      "constructor": {
+        "address": "0x6f5da4"
+      },
+      "methods": [
+        {
+          "methodName": "onRpcFinished",
+          "address": "0x6f5bec",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "onRpcFinished",
+          "methodAddress": "0x6f5bec"
+        }
+      ]
+    },
+    {
+      "className": "HttpResponse",
+      "constructor": {
+        "address": "0x6fa684"
+      },
+      "methods": [],
+      "properties": []
+    }
+  ],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 9,
+    "propertyRegistrationsCount": 1,
+    "classRegistrationsCount": 8,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T10:22:43.227834100Z"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "soName": "unknown",
+  "moduleName": "npth",
+  "propertyRegistrations": [
+    {
+      "propertyName": "nTryRecovery",
+      "address": "0x10c9a0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nWriteFile",
+      "address": "0x10cc00",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nGetThreadCount",
+      "address": "0x10c25c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nAddTag",
+      "address": "0x10af60",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nAddTags",
+      "address": "0x10b028",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nDumpNativeInfo",
+      "address": "0x10a8e8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nRecordAppExitReason",
+      "address": "0x10cd30",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nGetThreadName",
+      "address": "0x10c3f4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nGetFDLimit",
+      "address": "0x10c2f0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nRegisterSdk",
+      "address": "0x10b34c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nGetFdCount",
+      "address": "0x10c1bc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nInitCommonInfos",
+      "address": "0x10b2a0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nGetBuildId",
+      "address": "0x10cae4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nGetRssSize",
+      "address": "0x10c338",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nStartHiLogMonitor",
+      "address": "0x10abd0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nNativeCrashMonitor",
+      "address": "0x109fec",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nGetLeakReason",
+      "address": "0x10b3e4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nGetMemLeakReason",
+      "address": "0x10ba70",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nRebuildTombstone",
+      "address": "0x10a1c0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nInitCrashCallback",
+      "address": "0x10c4e4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nStopHiLogMonitor",
+      "address": "0x10adac",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nGetNativeSummary",
+      "address": "0x10a674",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nGetMD5String",
+      "address": "0x10c72c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nIsMainThread",
+      "address": "0x10c474",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nGetFreezeSummary",
+      "address": "0x10ae2c",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 25,
+    "propertyRegistrationsCount": 25,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T15:34:57.692452300Z"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "soName": "unknown",
+  "moduleName": "zidl2",
+  "propertyRegistrations": [],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 0,
+    "propertyRegistrationsCount": 0,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T23:22:50.684048300Z"
+  }
+}

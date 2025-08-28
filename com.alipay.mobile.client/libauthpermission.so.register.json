@@ -1,0 +1,62 @@
+{
+  "soName": "unknown",
+  "moduleName": "authpermission",
+  "propertyRegistrations": [
+    {
+      "propertyName": "checkPermission",
+      "address": "0x10819c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getAuthType",
+      "address": "0x111d08",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "policyAgreePrivacyResult",
+      "address": "0x10a100",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "policyGetPrivacyResult",
+      "address": "0x109d0c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "registerGuideFunction",
+      "address": "0x1108e4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "registerFortressFunction",
+      "address": "0x108458",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "checkBizPermission",
+      "address": "0x109410",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "tryShowGuide",
+      "address": "0x1081d8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "updateBizPermission",
+      "address": "0x10990c",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 9,
+    "propertyRegistrationsCount": 9,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-28T05:02:40.770617800Z"
+  }
+}

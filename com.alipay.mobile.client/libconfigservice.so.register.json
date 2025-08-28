@@ -1,0 +1,116 @@
+{
+  "soName": "unknown",
+  "moduleName": "configservice",
+  "propertyRegistrations": [
+    {
+      "propertyName": "putConfig",
+      "address": "0x1a6e2c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "removeConfigForTest",
+      "address": "0x1a8400",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "IsConfigServiceSwitch",
+      "address": "0x1a885c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "loadConfig",
+      "address": "0x1a61e4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "saveSyncLMCPLData",
+      "address": "0x1a7a6c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "loadBatchHongbaoConfig",
+      "address": "0x1a7580",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getConfigForAB",
+      "address": "0x1a678c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getConfigWithCallback",
+      "address": "0x1a7050",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getConfig",
+      "address": "0x1a651c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "saveConfig",
+      "address": "0x1a7b60",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "sendClientSwitchValue",
+      "address": "0x1a8110",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getConfigInternal",
+      "address": "0x1a62ec",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "putConfigInternal",
+      "address": "0x1a6be0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "putConfigHongbao",
+      "address": "0x1a77a0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "logDrillRedRevEvent",
+      "address": "0x1a85e8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "initNCService",
+      "address": "0x1a6168",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "addTSTriggerProxyFromNative",
+      "address": "0x1a8250",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getConfigWithPromise",
+      "address": "0x1a7360",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [
+    {
+      "className": "NConfig",
+      "constructor": {
+        "address": "0x1a88e4"
+      },
+      "methods": [],
+      "properties": []
+    }
+  ],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 19,
+    "propertyRegistrationsCount": 18,
+    "classRegistrationsCount": 1,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-28T08:06:38.948707Z"
+  }
+}

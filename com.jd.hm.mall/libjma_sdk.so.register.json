@@ -1,0 +1,37 @@
+{
+  "soName": "unknown",
+  "moduleName": "jma_sdk",
+  "propertyRegistrations": [
+    {
+      "propertyName": "add",
+      "address": "0x173058",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getMd5String",
+      "address": "0x17339c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "encryptJmaPackage",
+      "address": "0x173120",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getUname",
+      "address": "0x173488",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 4,
+    "propertyRegistrationsCount": 4,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T09:08:17.591659200Z"
+  }
+}

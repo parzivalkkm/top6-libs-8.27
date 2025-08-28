@@ -1,0 +1,22 @@
+{
+  "soName": "unknown",
+  "moduleName": "authservice",
+  "propertyRegistrations": [
+    {
+      "propertyName": "version",
+      "address": "0x10216c",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 1,
+    "propertyRegistrationsCount": 1,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-28T05:02:46.398046100Z"
+  }
+}

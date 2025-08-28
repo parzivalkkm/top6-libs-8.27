@@ -1,0 +1,27 @@
+{
+  "soName": "unknown",
+  "moduleName": "ccdn",
+  "propertyRegistrations": [
+    {
+      "propertyName": "",
+      "address": "0x532480",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "k\u0002",
+      "address": "0x53ad78",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 2,
+    "propertyRegistrationsCount": 2,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-28T08:02:19.561247400Z"
+  }
+}

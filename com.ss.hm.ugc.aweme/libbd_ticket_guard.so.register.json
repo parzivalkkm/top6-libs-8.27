@@ -1,0 +1,52 @@
+{
+  "soName": "unknown",
+  "moduleName": "bd_ticket_guard",
+  "propertyRegistrations": [
+    {
+      "propertyName": "add",
+      "address": "0x15996c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "transEccKey",
+      "address": "0x159b8c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "hmacSha256",
+      "address": "0x15a510",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "sign",
+      "address": "0x159fd8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getPublicKey",
+      "address": "0x159df4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "generateSymmetricKey",
+      "address": "0x15a1f4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "generateKeyPair",
+      "address": "0x159a34",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 7,
+    "propertyRegistrationsCount": 7,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T19:35:11.142307600Z"
+  }
+}

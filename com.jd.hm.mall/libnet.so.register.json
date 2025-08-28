@@ -1,0 +1,42 @@
+{
+  "soName": "unknown",
+  "moduleName": "net",
+  "propertyRegistrations": [
+    {
+      "propertyName": "nativeGetSecretKey",
+      "address": "0x10ecc8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeSetEnableLog",
+      "address": "0x10ed44",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeGetAppId",
+      "address": "0x10ec4c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeCall",
+      "address": "0x10df98",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "registerNetPerfListener",
+      "address": "0x10e9f4",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 5,
+    "propertyRegistrationsCount": 5,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T09:21:01.378138500Z"
+  }
+}

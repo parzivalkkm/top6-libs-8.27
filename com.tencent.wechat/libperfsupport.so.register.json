@@ -1,0 +1,27 @@
+{
+  "soName": "unknown",
+  "moduleName": "perfsupport",
+  "propertyRegistrations": [
+    {
+      "propertyName": "checkpoint",
+      "address": "0x16d3cc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "initialize",
+      "address": "0x15dc68",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 2,
+    "propertyRegistrationsCount": 2,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-28T00:53:15.530899600Z"
+  }
+}

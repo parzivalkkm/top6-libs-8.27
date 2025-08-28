@@ -1,0 +1,955 @@
+{
+    "hap_name": "@TEST_HAP_NAME",
+    "so_name": "libzlog_napi.so",
+    "module_name": "zlogw",
+    "functions": [
+        {
+            "name": "zlogw_get_default_pubkey",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "callsite": "1104860",
+                    "target": "napi_create_string_utf8",
+                    "operands": [
+                        "%a1",
+                        "char* \"1dac3876bd566b60c7dcbffd219ca6af2d2c07f045711bf2a6d111a2b1fc27c4df31c1f568879708c5159e370ab141e6627ea028b47f8a5cf4d39ca30d501f81\"",
+                        "long 128",
+                        "top"
+                    ],
+                    "rets": {
+                        "%0": "-1",
+                        "%1": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "%1",
+                    "type": "Ret"
+                }
+            ]
+        },
+        {
+            "name": "zlogw_flush",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "callsite": "1107340",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%a1",
+                        "long 0",
+                        "top"
+                    ],
+                    "rets": {
+                        "%0": "-1",
+                        "%1": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "%1",
+                    "type": "Ret"
+                }
+            ]
+        },
+        {
+            "name": "zlogw_setAutoFlushInterval",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "callsite": "1106792",
+                    "target": "napi_get_cb_info",
+                    "operands": [
+                        "%a1",
+                        "%a2",
+                        "top",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%0": "-1",
+                        "%1": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1106876",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top"
+                    ],
+                    "rets": {
+                        "%2": "-1",
+                        "%3": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "long 0",
+                        "long 4294967292",
+                        "long 4294967293",
+                        "long 4294967294",
+                        "long 4294967295"
+                    ],
+                    "ret": "%4",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1106964",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%a1",
+                        "%4",
+                        "top"
+                    ],
+                    "rets": {
+                        "%5": "-1",
+                        "%6": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "%6",
+                    "type": "Ret"
+                }
+            ]
+        },
+        {
+            "name": "zlogw_setAutoFlush",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "callsite": "1107080",
+                    "target": "napi_get_cb_info",
+                    "operands": [
+                        "%a1",
+                        "%a2",
+                        "top",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%0": "-1",
+                        "%1": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "long 0",
+                        "long 4294967292",
+                        "long 4294967293",
+                        "long 4294967294",
+                        "long 4294967295"
+                    ],
+                    "ret": "%2",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1107232",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%a1",
+                        "%2",
+                        "top"
+                    ],
+                    "rets": {
+                        "%3": "-1",
+                        "%4": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "%4",
+                    "type": "Ret"
+                }
+            ]
+        },
+        {
+            "name": "zlogw_print",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "callsite": "1107464",
+                    "target": "napi_get_cb_info",
+                    "operands": [
+                        "%a1",
+                        "%a2",
+                        "top",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%0": "-1",
+                        "%1": "3",
+                        "%2": "3",
+                        "%3": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1107644",
+                    "target": "napi_get_value_uint32",
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top"
+                    ],
+                    "rets": {
+                        "%4": "-1",
+                        "%5": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1107756",
+                    "target": "napi_get_value_string_utf8",
+                    "operands": [
+                        "%a1",
+                        "%2",
+                        "null",
+                        "long 0",
+                        "top"
+                    ],
+                    "rets": {
+                        "%6": "-1",
+                        "%7": "4"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1107804",
+                    "target": "napi_get_value_string_utf8",
+                    "operands": [
+                        "%a1",
+                        "%3",
+                        "null",
+                        "long 0",
+                        "top"
+                    ],
+                    "rets": {
+                        "%8": "-1",
+                        "%9": "4"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1107904",
+                    "target": "napi_get_value_string_utf8",
+                    "operands": [
+                        "%a1",
+                        "%2",
+                        "char* \"`\"",
+                        "%7",
+                        "top"
+                    ],
+                    "rets": {
+                        "%10": "-1",
+                        "%11": "4"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1107948",
+                    "target": "napi_get_value_string_utf8",
+                    "operands": [
+                        "%a1",
+                        "%3",
+                        "char* \"\"",
+                        "%9",
+                        "top"
+                    ],
+                    "rets": {
+                        "%12": "-1",
+                        "%13": "4"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "long 0",
+                        "long 4294967287",
+                        "long 4294967288",
+                        "long 4294967289",
+                        "long 4294967290",
+                        "long 4294967291",
+                        "long 4294967292",
+                        "long 4294967293",
+                        "long 4294967294",
+                        "long 4294967295"
+                    ],
+                    "ret": "%14",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1107680",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%a1",
+                        "%14",
+                        "top"
+                    ],
+                    "rets": {
+                        "%15": "-1",
+                        "%16": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "%16",
+                    "type": "Ret"
+                }
+            ]
+        },
+        {
+            "name": "zlogw_setConsoleEnabled",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "callsite": "1106148",
+                    "target": "napi_get_cb_info",
+                    "operands": [
+                        "%a1",
+                        "%a2",
+                        "top",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%0": "-1",
+                        "%1": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "long 0",
+                        "long 4294967292",
+                        "long 4294967293",
+                        "long 4294967294",
+                        "long 4294967295"
+                    ],
+                    "ret": "%2",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1106300",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%a1",
+                        "%2",
+                        "top"
+                    ],
+                    "rets": {
+                        "%3": "-1",
+                        "%4": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "%4",
+                    "type": "Ret"
+                }
+            ]
+        },
+        {
+            "name": "zlogw_isConsoleEnabled",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "callsite": "1106032",
+                    "target": "napi_get_boolean",
+                    "operands": [
+                        "%a1",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%0": "-1",
+                        "%1": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "%1",
+                    "type": "Ret"
+                }
+            ]
+        },
+        {
+            "name": "zlogw_getLevel",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "callsite": "1106408",
+                    "target": "napi_create_uint32",
+                    "operands": [
+                        "%a1",
+                        "long 0",
+                        "top"
+                    ],
+                    "rets": {
+                        "%0": "-1",
+                        "%1": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "%1",
+                    "type": "Ret"
+                }
+            ]
+        },
+        {
+            "name": "zlogw_init",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "callsite": "1104988",
+                    "target": "napi_get_cb_info",
+                    "operands": [
+                        "%a1",
+                        "%a2",
+                        "top",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%0": "-1",
+                        "%1": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1108104",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "char* \"log_dir\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%2": "-1",
+                        "%3": "3",
+                        "%4": "-1",
+                        "%5": "-1",
+                        "%6": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1108212",
+                    "target": "napi_get_value_string_utf8",
+                    "operands": [
+                        "%a1",
+                        "%3",
+                        "null",
+                        "long 0",
+                        "top"
+                    ],
+                    "rets": {
+                        "%7": "-1",
+                        "%8": "4",
+                        "%9": "-1",
+                        "%10": "-1",
+                        "%11": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1108292",
+                    "target": "napi_get_value_string_utf8",
+                    "operands": [
+                        "%a1",
+                        "%3",
+                        "char* \"\"",
+                        "%8",
+                        "top"
+                    ],
+                    "rets": {
+                        "%12": "-1",
+                        "%13": "4",
+                        "%14": "-1",
+                        "%15": "-1",
+                        "%16": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1105132",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%a1",
+                        "long 4294967292",
+                        "top"
+                    ],
+                    "rets": {
+                        "%17": "-1",
+                        "%18": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1105268",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%a1",
+                        "long 4294967291",
+                        "top"
+                    ],
+                    "rets": {
+                        "%19": "-1",
+                        "%20": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1105324",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%a1",
+                        "long 4294967290",
+                        "top"
+                    ],
+                    "rets": {
+                        "%21": "-1",
+                        "%22": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1105380",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%a1",
+                        "long 4294967289",
+                        "top"
+                    ],
+                    "rets": {
+                        "%23": "-1",
+                        "%24": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1108368",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "char* \"cache_size\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%25": "-1",
+                        "%26": "3",
+                        "%27": "-1",
+                        "%28": "-1",
+                        "%29": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1108468",
+                    "target": "napi_get_value_int64",
+                    "operands": [
+                        "%a1",
+                        "%26",
+                        "top"
+                    ],
+                    "rets": {
+                        "%30": "-1",
+                        "%31": "2",
+                        "%32": "-1",
+                        "%33": "-1",
+                        "%34": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1105436",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%a1",
+                        "long 4294967288",
+                        "top"
+                    ],
+                    "rets": {
+                        "%35": "-1",
+                        "%36": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1105484",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%a1",
+                        "long 4294967287",
+                        "top"
+                    ],
+                    "rets": {
+                        "%37": "-1",
+                        "%38": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1105532",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%a1",
+                        "long 10",
+                        "top"
+                    ],
+                    "rets": {
+                        "%39": "-1",
+                        "%40": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1105580",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%a1",
+                        "long 11",
+                        "top"
+                    ],
+                    "rets": {
+                        "%41": "-1",
+                        "%42": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1108532",
+                    "target": "operator.new",
+                    "operands": [
+                        "long 368"
+                    ],
+                    "rets": {
+                        "%43": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1130432",
+                    "target": "operator.new",
+                    "operands": [
+                        "top"
+                    ],
+                    "rets": {
+                        "%44": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1130568",
+                    "target": "operator.new",
+                    "operands": [
+                        "long 4352"
+                    ],
+                    "rets": {
+                        "%45": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1130652",
+                    "target": "operator.new",
+                    "operands": [
+                        "long 84"
+                    ],
+                    "rets": {
+                        "%46": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1130676",
+                    "target": "operator.new",
+                    "operands": [
+                        "long 8"
+                    ],
+                    "rets": {
+                        "%47": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1199444",
+                    "target": "operator.new",
+                    "operands": [
+                        "long 8200"
+                    ],
+                    "rets": {
+                        "%48": "-1",
+                        "%49": "-1",
+                        "%50": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1199460",
+                    "target": "operator.new",
+                    "operands": [
+                        "long 112"
+                    ],
+                    "rets": {
+                        "%51": "-1",
+                        "%52": "-1",
+                        "%53": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1130696",
+                    "target": "operator.new",
+                    "operands": [
+                        "long 48"
+                    ],
+                    "rets": {
+                        "%54": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1130716",
+                    "target": "operator.new",
+                    "operands": [
+                        "long 92"
+                    ],
+                    "rets": {
+                        "%55": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1130876",
+                    "target": "operator.new",
+                    "operands": [
+                        "top"
+                    ],
+                    "rets": {
+                        "%56": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1133668",
+                    "target": "operator.new",
+                    "operands": [
+                        "long 8"
+                    ],
+                    "rets": {
+                        "%57": "-1",
+                        "%58": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1131112",
+                    "target": "operator.new",
+                    "operands": [
+                        "long 112"
+                    ],
+                    "rets": {
+                        "%59": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1148712",
+                    "target": "operator.new",
+                    "operands": [
+                        "long 8"
+                    ],
+                    "rets": {
+                        "%60": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1148756",
+                    "target": "operator.new",
+                    "operands": [
+                        "long 8"
+                    ],
+                    "rets": {
+                        "%61": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1148812",
+                    "target": "operator.new",
+                    "operands": [
+                        "long 8"
+                    ],
+                    "rets": {
+                        "%62": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1148832",
+                    "target": "operator.new",
+                    "operands": [
+                        "long 72"
+                    ],
+                    "rets": {
+                        "%63": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1105800",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%a1",
+                        "long 0",
+                        "top"
+                    ],
+                    "rets": {
+                        "%64": "-1",
+                        "%65": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "long 4294967293",
+                        "long 4294967294",
+                        "long 4294967295"
+                    ],
+                    "ret": "%66",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1105152",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%a1",
+                        "%66",
+                        "top"
+                    ],
+                    "rets": {
+                        "%67": "-1",
+                        "%68": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "top",
+                    "type": "Ret"
+                }
+            ]
+        },
+        {
+            "name": "zlogw_setLevel",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "callsite": "1106524",
+                    "target": "napi_get_cb_info",
+                    "operands": [
+                        "%a1",
+                        "%a2",
+                        "top",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%0": "-1",
+                        "%1": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "1106608",
+                    "target": "napi_get_value_int32",
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top"
+                    ],
+                    "rets": {
+                        "%2": "-1",
+                        "%3": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "long 0",
+                        "long 4294967292",
+                        "long 4294967293",
+                        "long 4294967294",
+                        "long 4294967295"
+                    ],
+                    "ret": "%4",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "1106676",
+                    "target": "napi_create_int32",
+                    "operands": [
+                        "%a1",
+                        "%4",
+                        "top"
+                    ],
+                    "rets": {
+                        "%5": "-1",
+                        "%6": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operand": "%6",
+                    "type": "Ret"
+                }
+            ]
+        }
+    ]
+}

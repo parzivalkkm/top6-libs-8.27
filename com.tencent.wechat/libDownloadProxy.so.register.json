@@ -1,0 +1,120 @@
+{
+  "soName": "unknown",
+  "moduleName": "DownloadProxy",
+  "propertyRegistrations": [
+    {
+      "propertyName": "",
+      "address": "0x860f50",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "\u0001\u0001",
+      "address": "0x27b250",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "\u0001",
+      "address": "0x8b29e8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "\u0002",
+      "address": "0x8e5678",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "\u0003",
+      "address": "0x8b29dc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "\u0005",
+      "address": "0x8b2a24",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "\u0001\u0001\u0001tc.qq.com",
+      "address": "0x8b24f8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "\u000f",
+      "address": "0x3df800",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "\u0003\u0003\u0003\u0003\u0007\u0007\u0007\u0007\u000b\u000b\u000b\u000b\u000f\u000f\u000f\u000f\u0003\u0002\u0001",
+      "address": "0x8fa188",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "2",
+      "address": "0x8e94c0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "UUUUUUUUUUUUUUUU3333333333333333\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f\u000f",
+      "address": "0x273bc0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "\u0001\u0019",
+      "address": "0x8e5680",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "\u001e",
+      "address": "0x8b280a",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [
+    {
+      "className": "NativeCallback",
+      "constructor": {
+        "address": "0x55e02c"
+      },
+      "methods": [
+        {
+          "methodName": "dispatch",
+          "address": "0x55df00",
+          "type": "method"
+        },
+        {
+          "methodName": "off",
+          "address": "0x55dcdc",
+          "type": "method"
+        },
+        {
+          "methodName": "on",
+          "address": "0x55daa8",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "dispatch",
+          "methodAddress": "0x55df00"
+        },
+        {
+          "propertyName": "off",
+          "methodAddress": "0x55dcdc"
+        },
+        {
+          "propertyName": "on",
+          "methodAddress": "0x55daa8"
+        }
+      ]
+    }
+  ],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 14,
+    "propertyRegistrationsCount": 13,
+    "classRegistrationsCount": 1,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T23:41:15.227560600Z"
+  }
+}

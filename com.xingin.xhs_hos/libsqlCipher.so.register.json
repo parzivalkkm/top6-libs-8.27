@@ -1,0 +1,72 @@
+{
+  "soName": "unknown",
+  "moduleName": "sqlCipher",
+  "propertyRegistrations": [
+    {
+      "propertyName": "getLong",
+      "address": "0x1f1b24",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getInt",
+      "address": "0x1f1a0c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "closeDatabase",
+      "address": "0x1f1710",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "goToNextRow",
+      "address": "0x1f17d4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getDouble",
+      "address": "0x1f2074",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getColumnIndex",
+      "address": "0x1f18ac",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getString",
+      "address": "0x1f1d60",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getFloat",
+      "address": "0x1f1f58",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "openDatabase",
+      "address": "0x1f11c4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "closeStmt",
+      "address": "0x1f1e94",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "querySync",
+      "address": "0x1f1580",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 11,
+    "propertyRegistrationsCount": 11,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T15:55:15.316075300Z"
+  }
+}

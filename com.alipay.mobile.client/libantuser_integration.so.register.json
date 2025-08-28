@@ -1,0 +1,27 @@
+{
+  "soName": "unknown",
+  "moduleName": "antuser_integration",
+  "propertyRegistrations": [
+    {
+      "propertyName": "getLoginObserver",
+      "address": "0x134358",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "version",
+      "address": "0x135df8",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 2,
+    "propertyRegistrationsCount": 2,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-28T07:17:57.968642200Z"
+  }
+}

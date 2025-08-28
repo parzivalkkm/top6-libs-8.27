@@ -1,0 +1,37 @@
+{
+  "soName": "unknown",
+  "moduleName": "hpem_sliver",
+  "propertyRegistrations": [
+    {
+      "propertyName": "nCollectStack",
+      "address": "0x111054",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nStopSample",
+      "address": "0x111008",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nStartSample",
+      "address": "0x110e20",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nInit",
+      "address": "0x110cd0",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 4,
+    "propertyRegistrationsCount": 4,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T14:32:53.925580900Z"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "soName": "unknown",
+  "moduleName": "zlogw",
+  "propertyRegistrations": [
+    {
+      "propertyName": "zlogw_get_default_pubkey",
+      "address": "0x10dbb0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "zlogw_flush",
+      "address": "0x10e554",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "zlogw_setAutoFlushInterval",
+      "address": "0x10e328",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "zlogw_setAutoFlush",
+      "address": "0x10e448",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "zlogw_print",
+      "address": "0x10e5c0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "zlogw_setConsoleEnabled",
+      "address": "0x10e0a4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "zlogw_isConsoleEnabled",
+      "address": "0x10e038",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "zlogw_getLevel",
+      "address": "0x10e1b0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "zlogw_init",
+      "address": "0x10dc0c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "zlogw_setLevel",
+      "address": "0x10e21c",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 10,
+    "propertyRegistrationsCount": 10,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T23:23:09.548937100Z"
+  }
+}

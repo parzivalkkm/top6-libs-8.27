@@ -1,0 +1,42 @@
+{
+  "soName": "unknown",
+  "moduleName": "zaid",
+  "propertyRegistrations": [
+    {
+      "propertyName": "getSystemStartupTime",
+      "address": "0x102558",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "listDir",
+      "address": "0x1021e0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getMemoryTotalSpace",
+      "address": "0x1027c8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getInode",
+      "address": "0x10240c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getFileModifyTime",
+      "address": "0x102628",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 5,
+    "propertyRegistrationsCount": 5,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T16:58:48.225417500Z"
+  }
+}

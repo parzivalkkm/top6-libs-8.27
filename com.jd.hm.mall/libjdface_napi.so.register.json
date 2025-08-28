@@ -1,0 +1,62 @@
+{
+  "soName": "unknown",
+  "moduleName": "jdface_napi",
+  "propertyRegistrations": [
+    {
+      "propertyName": "detectResume",
+      "address": "0x1095a4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "init",
+      "address": "0x109108",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getFrameInfo",
+      "address": "0x109c18",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "setFaceConfig",
+      "address": "0x10931c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "setImgSavePath",
+      "address": "0x109dac",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "release",
+      "address": "0x109fa0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getSdkInfo",
+      "address": "0x109cbc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "detect",
+      "address": "0x1097b0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "setConcatControl",
+      "address": "0x109b00",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 9,
+    "propertyRegistrationsCount": 9,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T09:04:25.312410700Z"
+  }
+}

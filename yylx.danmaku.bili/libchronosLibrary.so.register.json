@@ -1,0 +1,42 @@
+{
+  "soName": "unknown",
+  "moduleName": "chronosLibrary",
+  "propertyRegistrations": [
+    {
+      "propertyName": "napiCreateEngine",
+      "address": "0x6e8a10",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "napiGetVersion",
+      "address": "0x6f0bac",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "napiCreateRenderTarget",
+      "address": "0x6f67f8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "napiRegisterPlatformRunner",
+      "address": "0x50c274",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "napiCreatePackage",
+      "address": "0x6f0db4",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 5,
+    "propertyRegistrationsCount": 5,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T10:05:44.592276Z"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "soName": "unknown",
+  "moduleName": "audiosdk",
+  "propertyRegistrations": [],
+  "classRegistrations": [
+    {
+      "className": "SAMICore",
+      "constructor": {
+        "address": "0x114e14"
+      },
+      "methods": [],
+      "properties": []
+    }
+  ],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 1,
+    "propertyRegistrationsCount": 0,
+    "classRegistrationsCount": 1,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T19:25:06.916584400Z"
+  }
+}

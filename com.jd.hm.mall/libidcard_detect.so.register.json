@@ -1,0 +1,72 @@
+{
+  "soName": "unknown",
+  "moduleName": "idcard_detect",
+  "propertyRegistrations": [
+    {
+      "propertyName": "setDetectCallback",
+      "address": "0x108d14",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "SetPreviewCallback",
+      "address": "0x108c64",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeDetectHack",
+      "address": "0x108750",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeInit",
+      "address": "0x1083d8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeGetDetectFrameInfo",
+      "address": "0x10889c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeGetSdkInfo",
+      "address": "0x108a04",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeRelease",
+      "address": "0x108c14",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeGetSdkVersion",
+      "address": "0x108b04",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeSetSdkConfig",
+      "address": "0x10852c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeDetect",
+      "address": "0x108604",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeGetDetectHackFrameInfo",
+      "address": "0x108950",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 11,
+    "propertyRegistrationsCount": 11,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T09:00:53.263165100Z"
+  }
+}

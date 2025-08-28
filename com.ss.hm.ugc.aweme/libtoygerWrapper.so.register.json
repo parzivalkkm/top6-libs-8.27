@@ -1,0 +1,137 @@
+{
+  "soName": "unknown",
+  "moduleName": "toygerWrapper",
+  "propertyRegistrations": [
+    {
+      "propertyName": "setMessageListener",
+      "address": "0x12ce5c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "releaseCamera",
+      "address": "0x12d170",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "buildLogRequest",
+      "address": "0x12dbcc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "buildRequest",
+      "address": "0x12da08",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "unGzip",
+      "address": "0x12e398",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "repackResponse",
+      "address": "0x12dd90",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "release",
+      "address": "0x12cddc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "buildVerifyRequest",
+      "address": "0x12d680",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "buildVerifyData",
+      "address": "0x12ceac",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "gzip",
+      "address": "0x12e170",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "verifyConfig",
+      "address": "0x12d1c8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "loadModel",
+      "address": "0x12ca1c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "generateOSSUrl",
+      "address": "0x12dfc0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "updateNativeStatus",
+      "address": "0x12c860",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "stopCameraPreview",
+      "address": "0x12d110",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "releaseVerifyConfig",
+      "address": "0x12df54",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "reset",
+      "address": "0x12cdb8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "buildInitRequest",
+      "address": "0x12d4bc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "updateNativeState",
+      "address": "0x12e5d8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "startCameraPreview",
+      "address": "0x12cf80",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "processImage",
+      "address": "0x12c5d4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "config",
+      "address": "0x12cce4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "retry",
+      "address": "0x12e798",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "buildOcrVerifyRequest",
+      "address": "0x12d844",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 24,
+    "propertyRegistrationsCount": 24,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T21:01:14.046614900Z"
+  }
+}

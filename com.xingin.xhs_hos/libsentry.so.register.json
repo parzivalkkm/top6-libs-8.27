@@ -1,0 +1,22 @@
+{
+  "soName": "unknown",
+  "moduleName": "sentry",
+  "propertyRegistrations": [
+    {
+      "propertyName": "createNativeCrash",
+      "address": "0x101da0",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 1,
+    "propertyRegistrationsCount": 1,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T14:05:48.397759700Z"
+  }
+}

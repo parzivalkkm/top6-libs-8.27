@@ -1,0 +1,37 @@
+{
+  "soName": "unknown",
+  "moduleName": "adblock_wrapper",
+  "propertyRegistrations": [
+    {
+      "propertyName": "AdblockWrapperShouldHidingElement",
+      "address": "0x1065e0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "adblockWrapperInit",
+      "address": "0x106168",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "AdblockWrapperParseRulesString",
+      "address": "0x10623c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "AdblockWrapperShouldBlockUrlRequest",
+      "address": "0x1063f4",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 4,
+    "propertyRegistrationsCount": 4,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T13:20:51.899209400Z"
+  }
+}

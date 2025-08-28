@@ -1,0 +1,22 @@
+{
+  "soName": "unknown",
+  "moduleName": "mm_foundation_cpp",
+  "propertyRegistrations": [
+    {
+      "propertyName": "setupLog",
+      "address": "0x105bf4",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 1,
+    "propertyRegistrationsCount": 1,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T16:25:22.498561400Z"
+  }
+}

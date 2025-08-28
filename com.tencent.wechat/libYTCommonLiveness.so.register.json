@@ -1,0 +1,42 @@
+{
+  "soName": "unknown",
+  "moduleName": "YTCommonLiveness",
+  "propertyRegistrations": [
+    {
+      "propertyName": "ytliveness_auth_get_endtime",
+      "address": "0x152338",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "ytliveness_auth_init_by_string",
+      "address": "0x151f60",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "ytliveness_auth_init_by_bytes",
+      "address": "0x152270",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "ytliveness_auth_get_version",
+      "address": "0x152394",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "ytliveness_auth_init_by_rawfilepath",
+      "address": "0x152044",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 5,
+    "propertyRegistrationsCount": 5,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T23:12:23.813384900Z"
+  }
+}

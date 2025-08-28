@@ -1,0 +1,25 @@
+{
+  "soName": "unknown",
+  "moduleName": "vodstrategy",
+  "propertyRegistrations": [],
+  "classRegistrations": [
+    {
+      "className": "StrategyCenter",
+      "constructor": {
+        "address": "0x3740a0"
+      },
+      "methods": [],
+      "properties": []
+    }
+  ],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 1,
+    "propertyRegistrationsCount": 0,
+    "classRegistrationsCount": 1,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T21:32:04.560701700Z"
+  }
+}

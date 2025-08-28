@@ -1,0 +1,57 @@
+{
+  "soName": "unknown",
+  "moduleName": "bankcard_detect",
+  "propertyRegistrations": [
+    {
+      "propertyName": "nativeGetSDKVersion",
+      "address": "0x108304",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeInit",
+      "address": "0x107ccc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeRelease",
+      "address": "0x108438",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeGetSDKInfo",
+      "address": "0x1081e0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeGetFrameInfo",
+      "address": "0x108124",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeSetSdkConfig",
+      "address": "0x107e24",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeDetect",
+      "address": "0x107f10",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nativeSetPreviewCallback",
+      "address": "0x108078",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 8,
+    "propertyRegistrationsCount": 8,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T08:08:56.997245900Z"
+  }
+}

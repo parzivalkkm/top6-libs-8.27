@@ -1,0 +1,52 @@
+{
+  "soName": "unknown",
+  "moduleName": "login",
+  "propertyRegistrations": [
+    {
+      "propertyName": "add",
+      "address": "0x121ae0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "randomKey",
+      "address": "0x121ba8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "decryptMsg",
+      "address": "0x121ddc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "decryptData",
+      "address": "0x121fdc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "md5Str",
+      "address": "0x12234c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "encryptMsg",
+      "address": "0x121c74",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "md5",
+      "address": "0x12220c",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 7,
+    "propertyRegistrationsCount": 7,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T09:09:33.604398800Z"
+  }
+}

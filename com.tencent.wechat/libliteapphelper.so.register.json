@@ -1,0 +1,22 @@
+{
+  "soName": "unknown",
+  "moduleName": "liteapphelper",
+  "propertyRegistrations": [
+    {
+      "propertyName": "initialize",
+      "address": "0x10de50",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 1,
+    "propertyRegistrationsCount": 1,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T14:55:29.684579800Z"
+  }
+}

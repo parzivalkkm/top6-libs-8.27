@@ -1,0 +1,67 @@
+{
+  "soName": "unknown",
+  "moduleName": "bytehook",
+  "propertyRegistrations": [
+    {
+      "propertyName": "nAddIgnore",
+      "address": "0x1094f8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nSetDebug",
+      "address": "0x1095ec",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nGetRecords",
+      "address": "0x1096b0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nGetMode",
+      "address": "0x109578",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nGetVersion",
+      "address": "0x1093f0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nGetArch",
+      "address": "0x10972c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nGetDebug",
+      "address": "0x1095b0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nSetRecordable",
+      "address": "0x10966c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nGetRecordable",
+      "address": "0x109630",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nInit",
+      "address": "0x10943c",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 10,
+    "propertyRegistrationsCount": 10,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T13:51:16.700234500Z"
+  }
+}

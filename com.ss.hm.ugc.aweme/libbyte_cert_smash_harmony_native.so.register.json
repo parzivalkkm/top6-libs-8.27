@@ -1,0 +1,127 @@
+{
+  "soName": "unknown",
+  "moduleName": "byte_cert_smash_harmony_native",
+  "propertyRegistrations": [
+    {
+      "propertyName": "FaceLiveness_native_1FL_1CreateHandler",
+      "address": "0x1df7f8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceLiveness_native_1FL_1GetBestFrame",
+      "address": "0x1e0904",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceLiveness_native_1FL_1SetModle",
+      "address": "0x1e0778",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceLiveness_native_1FL_1GetFaceVerifySdkData",
+      "address": "0x1e1bac",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceLiveness_native_1FL_1GetLogData",
+      "address": "0x1e1660",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceVerify_native_FV_ReleaseHandle",
+      "address": "0x1e2ff8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceLiveness_native_1FL_1SetConfigFloat",
+      "address": "0x1e0318",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceLiveness_native_1FL_1doFaceQuality",
+      "address": "0x1e1424",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceLiveness_native_1FL_1ResetHandle",
+      "address": "0x1dfd70",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceVerify_native_FV_CreateHandler",
+      "address": "0x1e2e5c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceLiveness_native_1FL_1GetSdkVersion",
+      "address": "0x1df728",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceLiveness_native_1FL_1SetConfigInt",
+      "address": "0x1e043c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "Cert_Native_SaveImage",
+      "address": "0x1da3a4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceLiveness_native_1FL_1doPredict",
+      "address": "0x1df898",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceLiveness_native_1FL_1GetSdkData",
+      "address": "0x1e0abc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceLiveness_native_1FL_1SetParamFromBytes",
+      "address": "0x1dfe94",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceLiveness_native_1FL_1GetModelName",
+      "address": "0x1df664",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceLiveness_native_1FL_1ReleaseHandle",
+      "address": "0x1dfc30",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceLiveness_native_1FL_1show",
+      "address": "0x1dfe94",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceVerify_native_FV_Verify",
+      "address": "0x1e3644",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceLiveness_native_1FL_1GetLights",
+      "address": "0x1e067c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "FaceVerify_native_FV_AddOri",
+      "address": "0x1e3080",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 22,
+    "propertyRegistrationsCount": 22,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T19:47:28.736036300Z"
+  }
+}

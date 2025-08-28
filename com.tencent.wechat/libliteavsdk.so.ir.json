@@ -1,0 +1,1464 @@
+{
+    "hap_name": "@TEST_HAP_NAME",
+    "so_name": "libliteavsdk.so",
+    "module_name": "liteavsdk",
+    "functions": [
+        {
+            "name": "napiOnLoad",
+            "params": {
+                "%a1": "napi_env",
+                "%a2": "napi_callback_info"
+            },
+            "instructions": [
+                {
+                    "callsite": "4811836",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 4",
+                        "long 0",
+                        "char* \"liteav\"",
+                        "char* \"SetEnv New[%{public}p] Old[%{public}p]\"",
+                        "%a1",
+                        "top"
+                    ],
+                    "rets": {
+                        "%0": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4810720",
+                    "target": "operator.new",
+                    "operands": [
+                        "long 208"
+                    ],
+                    "rets": {
+                        "%1": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4491576",
+                    "target": "napi_create_object",
+                    "operands": [
+                        "%a1",
+                        "top"
+                    ],
+                    "rets": {
+                        "%2": "-1",
+                        "%3": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4393984",
+                    "target": "napi_create_string_utf8",
+                    "operands": [
+                        "%a1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%4": "-1",
+                        "%5": "3",
+                        "%6": "-1",
+                        "%7": "-1",
+                        "%8": "-1",
+                        "%9": "-1",
+                        "%10": "-1",
+                        "%11": "-1",
+                        "%12": "-1",
+                        "%13": "-1",
+                        "%14": "-1",
+                        "%15": "-1",
+                        "%16": "-1",
+                        "%17": "-1",
+                        "%18": "-1",
+                        "%19": "-1",
+                        "%20": "-1",
+                        "%21": "-1",
+                        "%22": "-1",
+                        "%23": "-1",
+                        "%24": "-1",
+                        "%25": "-1",
+                        "%26": "-1",
+                        "%27": "-1",
+                        "%28": "-1",
+                        "%29": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4394008",
+                    "target": "napi_create_error",
+                    "operands": [
+                        "%a1",
+                        "top",
+                        "%5",
+                        "top"
+                    ],
+                    "rets": {
+                        "%30": "-1",
+                        "%31": "3",
+                        "%32": "-1",
+                        "%33": "-1",
+                        "%34": "-1",
+                        "%35": "-1",
+                        "%36": "-1",
+                        "%37": "-1",
+                        "%38": "-1",
+                        "%39": "-1",
+                        "%40": "-1",
+                        "%41": "-1",
+                        "%42": "-1",
+                        "%43": "-1",
+                        "%44": "-1",
+                        "%45": "-1",
+                        "%46": "-1",
+                        "%47": "-1",
+                        "%48": "-1",
+                        "%49": "-1",
+                        "%50": "-1",
+                        "%51": "-1",
+                        "%52": "-1",
+                        "%53": "-1",
+                        "%54": "-1",
+                        "%55": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4394632",
+                    "target": "napi_create_object",
+                    "operands": [
+                        "%a1",
+                        "top"
+                    ],
+                    "rets": {
+                        "%56": "-1",
+                        "%57": "2",
+                        "%58": "-1",
+                        "%59": "-1",
+                        "%60": "-1",
+                        "%61": "-1",
+                        "%62": "-1",
+                        "%63": "-1",
+                        "%64": "-1",
+                        "%65": "-1",
+                        "%66": "-1",
+                        "%67": "-1",
+                        "%68": "-1",
+                        "%69": "-1",
+                        "%70": "-1",
+                        "%71": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4394696",
+                    "target": "napi_define_properties",
+                    "operands": [
+                        "%a1",
+                        "top",
+                        "long 1",
+                        "top"
+                    ],
+                    "rets": {
+                        "%72": "-1",
+                        "%73": "-1",
+                        "%74": "-1",
+                        "%75": "-1",
+                        "%76": "-1",
+                        "%77": "-1",
+                        "%78": "-1",
+                        "%79": "-1",
+                        "%80": "-1",
+                        "%81": "-1",
+                        "%82": "-1",
+                        "%83": "-1",
+                        "%84": "-1",
+                        "%85": "-1",
+                        "%86": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4395332",
+                    "target": "napi_create_string_utf8",
+                    "operands": [
+                        "top",
+                        "char* \"4bda9e7e-4913-4dbc-95de-891cbf66598e-errorVal\"",
+                        "long 45",
+                        "top"
+                    ],
+                    "rets": {
+                        "%87": "-1",
+                        "%88": "3",
+                        "%89": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%90",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395128",
+                    "target": "napi_has_property",
+                    "operands": [
+                        "top",
+                        "%90",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%91": "-1",
+                        "%92": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%93",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395128",
+                    "target": "napi_has_property",
+                    "operands": [
+                        "top",
+                        "%93",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%94": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%95",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395128",
+                    "target": "napi_has_property",
+                    "operands": [
+                        "top",
+                        "%95",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%96": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%97",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395128",
+                    "target": "napi_has_property",
+                    "operands": [
+                        "top",
+                        "%97",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%98": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%99",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395128",
+                    "target": "napi_has_property",
+                    "operands": [
+                        "top",
+                        "%99",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%100": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%101",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395128",
+                    "target": "napi_has_property",
+                    "operands": [
+                        "top",
+                        "%101",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%102": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%103",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395128",
+                    "target": "napi_has_property",
+                    "operands": [
+                        "top",
+                        "%103",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%104": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%105",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395128",
+                    "target": "napi_has_property",
+                    "operands": [
+                        "top",
+                        "%105",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%106": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%107",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395128",
+                    "target": "napi_has_property",
+                    "operands": [
+                        "top",
+                        "%107",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%108": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%109",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395128",
+                    "target": "napi_has_property",
+                    "operands": [
+                        "top",
+                        "%109",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%110": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%111",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395128",
+                    "target": "napi_has_property",
+                    "operands": [
+                        "top",
+                        "%111",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%112": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%113",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395128",
+                    "target": "napi_has_property",
+                    "operands": [
+                        "top",
+                        "%113",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%114": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%115",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395128",
+                    "target": "napi_has_property",
+                    "operands": [
+                        "top",
+                        "%115",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%116": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%117",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395128",
+                    "target": "napi_has_property",
+                    "operands": [
+                        "top",
+                        "%117",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%118": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%119",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395128",
+                    "target": "napi_has_property",
+                    "operands": [
+                        "top",
+                        "%119",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%120": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%121",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395184",
+                    "target": "napi_get_property",
+                    "operands": [
+                        "top",
+                        "%121",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%122": "-1",
+                        "%123": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%124",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395184",
+                    "target": "napi_get_property",
+                    "operands": [
+                        "top",
+                        "%124",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%125": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%126",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395184",
+                    "target": "napi_get_property",
+                    "operands": [
+                        "top",
+                        "%126",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%127": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%128",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395184",
+                    "target": "napi_get_property",
+                    "operands": [
+                        "top",
+                        "%128",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%129": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%130",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395184",
+                    "target": "napi_get_property",
+                    "operands": [
+                        "top",
+                        "%130",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%131": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%132",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395184",
+                    "target": "napi_get_property",
+                    "operands": [
+                        "top",
+                        "%132",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%133": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%134",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395184",
+                    "target": "napi_get_property",
+                    "operands": [
+                        "top",
+                        "%134",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%135": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%136",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395184",
+                    "target": "napi_get_property",
+                    "operands": [
+                        "top",
+                        "%136",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%137": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%138",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395184",
+                    "target": "napi_get_property",
+                    "operands": [
+                        "top",
+                        "%138",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%139": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%140",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395184",
+                    "target": "napi_get_property",
+                    "operands": [
+                        "top",
+                        "%140",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%141": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%142",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395184",
+                    "target": "napi_get_property",
+                    "operands": [
+                        "top",
+                        "%142",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%143": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%144",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395184",
+                    "target": "napi_get_property",
+                    "operands": [
+                        "top",
+                        "%144",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%145": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%146",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395184",
+                    "target": "napi_get_property",
+                    "operands": [
+                        "top",
+                        "%146",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%147": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%148",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395184",
+                    "target": "napi_get_property",
+                    "operands": [
+                        "top",
+                        "%148",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%149": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%1",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "ret": "%150",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395184",
+                    "target": "napi_get_property",
+                    "operands": [
+                        "top",
+                        "%150",
+                        "%88",
+                        "top"
+                    ],
+                    "rets": {
+                        "%151": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4394328",
+                    "target": "napi_throw",
+                    "operands": [
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%152": "-1",
+                        "%153": "-1",
+                        "%154": "-1",
+                        "%155": "-1",
+                        "%156": "-1",
+                        "%157": "-1",
+                        "%158": "-1",
+                        "%159": "-1",
+                        "%160": "-1",
+                        "%161": "-1",
+                        "%162": "-1",
+                        "%163": "-1",
+                        "%164": "-1",
+                        "%165": "-1",
+                        "%166": "-1",
+                        "%167": "-1",
+                        "%168": "-1",
+                        "%169": "-1",
+                        "%170": "-1",
+                        "%171": "-1",
+                        "%172": "-1",
+                        "%173": "-1",
+                        "%174": "-1",
+                        "%175": "-1",
+                        "%176": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4813572",
+                    "target": "napi_create_string_latin1",
+                    "operands": [
+                        "top",
+                        "char* \"generic\"",
+                        "long -1",
+                        "top"
+                    ],
+                    "rets": {
+                        "%177": "-1",
+                        "%178": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4816316",
+                    "target": "operator.new",
+                    "operands": [
+                        "long 16"
+                    ],
+                    "rets": {
+                        "%179": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4506512",
+                    "target": "napi_get_cb_info",
+                    "operands": [
+                        "%a1",
+                        "%a2",
+                        "top",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%180": "-1",
+                        "%181": "3",
+                        "%182": "3",
+                        "%183": "3",
+                        "%184": "3",
+                        "%185": "3",
+                        "%186": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4506588",
+                    "target": "operator.new[]",
+                    "operands": [
+                        "long -1"
+                    ],
+                    "rets": {
+                        "%187": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4506624",
+                    "target": "napi_get_cb_info",
+                    "operands": [
+                        "%a1",
+                        "%a2",
+                        "top",
+                        "%187",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%188": "-1",
+                        "%189": "3",
+                        "%190": "3",
+                        "%191": "3",
+                        "%192": "3",
+                        "%193": "3",
+                        "%194": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4400164",
+                    "target": "napi_get_undefined",
+                    "operands": [
+                        "%a1",
+                        "top"
+                    ],
+                    "rets": {
+                        "%195": "-1",
+                        "%196": "1",
+                        "%197": "-1",
+                        "%198": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4395904",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%a1",
+                        "top",
+                        "char* \"filesDir\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%199": "-1",
+                        "%200": "3"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%181",
+                        "%196",
+                        "%189"
+                    ],
+                    "ret": "%201",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395904",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%a1",
+                        "%201",
+                        "char* \"getApplicationContext\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%202": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%196",
+                        "%225"
+                    ],
+                    "ret": "%203",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395904",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%a1",
+                        "%203",
+                        "char* \"filesDir\"",
+                        "top"
+                    ],
+                    "rets": {
+                        "%204": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%190",
+                        "%196",
+                        "%200",
+                        "%182"
+                    ],
+                    "ret": "%205",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4395904",
+                    "target": "napi_get_named_property",
+                    "operands": [
+                        "%a1",
+                        "%205",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%206": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4388960",
+                    "target": "napi_get_value_string_utf8",
+                    "operands": [
+                        "%a1",
+                        "%200",
+                        "char* \"�\u0017�\"",
+                        "long 0",
+                        "top"
+                    ],
+                    "rets": {
+                        "%207": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%a1",
+                        "%200",
+                        "char* \"�\u0017�\"",
+                        "long 0",
+                        "top"
+                    ],
+                    "rets": {
+                        "%208": "4"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4388960",
+                    "target": "napi_get_value_string_utf8",
+                    "operands": [
+                        "%a1",
+                        "%200",
+                        "char* \"�\u0017�\"",
+                        "long 0",
+                        "top"
+                    ],
+                    "rets": {
+                        "%209": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "11744360",
+                    "target": "operator.new",
+                    "operands": [
+                        "long 23"
+                    ],
+                    "rets": {
+                        "%210": "-1",
+                        "%211": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "11746060",
+                    "target": "operator.new",
+                    "operands": [
+                        "long -17"
+                    ],
+                    "rets": {
+                        "%212": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "long 0",
+                        "long 48"
+                    ],
+                    "ret": "%213",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "11745984",
+                    "target": "operator.new",
+                    "operands": [
+                        "%213"
+                    ],
+                    "rets": {
+                        "%214": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "char* \"�\u0017�\"",
+                        "%214",
+                        "%210",
+                        "%211",
+                        "%212",
+                        "top"
+                    ],
+                    "ret": "%215",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4389112",
+                    "target": "napi_get_value_string_utf8",
+                    "operands": [
+                        "%a1",
+                        "%200",
+                        "%215",
+                        "%208",
+                        "top"
+                    ],
+                    "rets": {
+                        "%216": "-1",
+                        "%217": "4"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "char* \"�\u0017�\"",
+                        "%214",
+                        "%210",
+                        "%211",
+                        "%212",
+                        "top"
+                    ],
+                    "ret": "%218",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4389112",
+                    "target": "napi_get_value_string_utf8",
+                    "operands": [
+                        "%a1",
+                        "%200",
+                        "%218",
+                        "%208",
+                        "top"
+                    ],
+                    "rets": {
+                        "%219": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4812260",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 4",
+                        "long 0",
+                        "char* \"liteav\"",
+                        "char* \"SetUIAbilityContext %{public}p %{public}d %{public}s\"",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%220": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4812320",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 4",
+                        "long 0",
+                        "char* \"liteav\"",
+                        "char* \"SetUIAbilityContext %{public}p %{public}d %{public}s\"",
+                        "top",
+                        "top",
+                        "char* \"not an object\""
+                    ],
+                    "rets": {
+                        "%221": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%181",
+                        "%196",
+                        "%189"
+                    ],
+                    "ret": "%222",
+                    "type": "Phi"
+                },
+                {
+                    "operands": [
+                        "%190",
+                        "%196",
+                        "%200",
+                        "%182"
+                    ],
+                    "ret": "%223",
+                    "type": "Phi"
+                },
+                {
+                    "callsite": "4400288",
+                    "target": "napi_call_function",
+                    "operands": [
+                        "%a1",
+                        "%222",
+                        "%223",
+                        "long 0",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%224": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "0",
+                    "operands": [
+                        "%a1",
+                        "%222",
+                        "%223",
+                        "long 0",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%225": "5"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4812668",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 4",
+                        "long 0",
+                        "char* \"liteav\"",
+                        "char* \"SetApplicationContext %{public}p %{public}d %{public}s\"",
+                        "top",
+                        "top",
+                        "char* \"not an object\""
+                    ],
+                    "rets": {
+                        "%226": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4812608",
+                    "target": "OH_LOG_Print",
+                    "operands": [
+                        "long 0",
+                        "long 4",
+                        "long 0",
+                        "char* \"liteav\"",
+                        "char* \"SetApplicationContext %{public}p %{public}d %{public}s\"",
+                        "top",
+                        "top",
+                        "top"
+                    ],
+                    "rets": {
+                        "%227": "-1"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "callsite": "4392908",
+                    "target": "napi_create_double",
+                    "operands": [
+                        "%a1",
+                        "long 0",
+                        "top"
+                    ],
+                    "rets": {
+                        "%228": "-1",
+                        "%229": "2"
+                    },
+                    "type": "Call"
+                },
+                {
+                    "operands": [
+                        "%a1",
+                        "%229"
+                    ],
+                    "ret": "%230",
+                    "type": "Phi"
+                },
+                {
+                    "operand": "%230",
+                    "type": "Ret"
+                }
+            ]
+        }
+    ]
+}

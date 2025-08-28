@@ -1,0 +1,16 @@
+{
+  "soName": "unknown",
+  "moduleName": "airconfig",
+  "propertyRegistrations": [],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 0,
+    "propertyRegistrationsCount": 0,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-28T01:39:24.472887700Z"
+  }
+}

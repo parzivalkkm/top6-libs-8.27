@@ -1,0 +1,360 @@
+{
+  "soName": "unknown",
+  "moduleName": "wcplayer",
+  "propertyRegistrations": [],
+  "classRegistrations": [
+    {
+      "className": "WCPlayerControlArgs",
+      "constructor": {
+        "address": "0x227454"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "WCPlayerVideoFrameBuffer",
+      "constructor": {
+        "address": "0x2224c4"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "WCPlayerSeiInfo",
+      "constructor": {
+        "address": "0x2206f0"
+      },
+      "methods": [
+        {
+          "methodName": "get_videoSeiType",
+          "address": "0x220900",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_videoSeiType",
+          "address": "0x220b34",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_videoCodecID",
+          "address": "0x220d5c",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_videoCodecID",
+          "address": "0x220f90",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_isSpecialType",
+          "address": "0x2211b8",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_isSpecialType",
+          "address": "0x2213f8",
+          "type": "setter"
+        },
+        {
+          "methodName": "getData",
+          "address": "0x22162c",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "videoSeiType",
+          "getterAddress": "0x220900",
+          "setterAddress": "0x220b34"
+        },
+        {
+          "propertyName": "videoCodecID",
+          "getterAddress": "0x220d5c",
+          "setterAddress": "0x220f90"
+        },
+        {
+          "propertyName": "isSpecialType",
+          "getterAddress": "0x2211b8",
+          "setterAddress": "0x2213f8"
+        },
+        {
+          "propertyName": "getData",
+          "methodAddress": "0x22162c"
+        }
+      ]
+    },
+    {
+      "className": "WCPlayerMgr",
+      "constructor": {
+        "address": "0x2269d8"
+      },
+      "methods": [
+        {
+          "methodName": "initWCPlayer",
+          "address": "0x226bd4",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "initWCPlayer",
+          "methodAddress": "0x226bd4"
+        }
+      ]
+    },
+    {
+      "className": "WCPlayer",
+      "constructor": {
+        "address": "0x22bbb4"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "WCPlayerSnapshotParam",
+      "constructor": {
+        "address": "0x233f24"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "WCPlayerVideoMetaInfo",
+      "constructor": {
+        "address": "0x2361e4"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "ProgressChangedInfo",
+      "constructor": {
+        "address": "0x216660"
+      },
+      "methods": [
+        {
+          "methodName": "get_fileKey",
+          "address": "0x216870",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_fileKey",
+          "address": "0x216ac4",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_finishedLength",
+          "address": "0x217050",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_finishedLength",
+          "address": "0x2171bc",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_totalLength",
+          "address": "0x216d78",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_totalLength",
+          "address": "0x216ee4",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_speedKBytesPerSec",
+          "address": "0x217328",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_speedKBytesPerSec",
+          "address": "0x217494",
+          "type": "setter"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "fileKey",
+          "getterAddress": "0x216870",
+          "setterAddress": "0x216ac4"
+        },
+        {
+          "propertyName": "finishedLength",
+          "getterAddress": "0x217050",
+          "setterAddress": "0x2171bc"
+        },
+        {
+          "propertyName": "totalLength",
+          "getterAddress": "0x216d78",
+          "setterAddress": "0x216ee4"
+        },
+        {
+          "propertyName": "speedKBytesPerSec",
+          "getterAddress": "0x217328",
+          "setterAddress": "0x217494"
+        }
+      ]
+    },
+    {
+      "className": "WCPlayerError",
+      "constructor": {
+        "address": "0x21ebe4"
+      },
+      "methods": [
+        {
+          "methodName": "get_code",
+          "address": "0x21edf4",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_code",
+          "address": "0x21f034",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_subtype",
+          "address": "0x21f6c4",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_subtype",
+          "address": "0x21f8f8",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_type",
+          "address": "0x21f268",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_type",
+          "address": "0x21f49c",
+          "type": "setter"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "code",
+          "getterAddress": "0x21edf4",
+          "setterAddress": "0x21f034"
+        },
+        {
+          "propertyName": "subtype",
+          "getterAddress": "0x21f6c4",
+          "setterAddress": "0x21f8f8"
+        },
+        {
+          "propertyName": "type",
+          "getterAddress": "0x21f268",
+          "setterAddress": "0x21f49c"
+        }
+      ]
+    },
+    {
+      "className": "WCPlayerDownloadProgressInfo",
+      "constructor": {
+        "address": "0x21d5ec"
+      },
+      "methods": [
+        {
+          "methodName": "get_total",
+          "address": "0x21d7fc",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_total",
+          "address": "0x21d968",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_downloadSpeedKBytes",
+          "address": "0x21ddac",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_downloadSpeedKBytes",
+          "address": "0x21df18",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_finished",
+          "address": "0x21dad4",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_finished",
+          "address": "0x21dc40",
+          "type": "setter"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "total",
+          "getterAddress": "0x21d7fc",
+          "setterAddress": "0x21d968"
+        },
+        {
+          "propertyName": "downloadSpeedKBytes",
+          "getterAddress": "0x21ddac",
+          "setterAddress": "0x21df18"
+        },
+        {
+          "propertyName": "finished",
+          "getterAddress": "0x21dad4",
+          "setterAddress": "0x21dc40"
+        }
+      ]
+    },
+    {
+      "className": "WCPlayerResult",
+      "constructor": {
+        "address": "0x232bec"
+      },
+      "methods": [
+        {
+          "methodName": "get_context",
+          "address": "0x2331c8",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_context",
+          "address": "0x233408",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_retCode",
+          "address": "0x232d6c",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_retCode",
+          "address": "0x232fa0",
+          "type": "setter"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "context",
+          "getterAddress": "0x2331c8",
+          "setterAddress": "0x233408"
+        },
+        {
+          "propertyName": "retCode",
+          "getterAddress": "0x232d6c",
+          "setterAddress": "0x232fa0"
+        }
+      ]
+    }
+  ],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 11,
+    "propertyRegistrationsCount": 0,
+    "classRegistrationsCount": 11,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T17:43:58.540741100Z"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "soName": "unknown",
+  "moduleName": "phcengine",
+  "propertyRegistrations": [
+    {
+      "propertyName": "PhcEncrypt",
+      "address": "0x1073f0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "PhcDecrypt",
+      "address": "0x1078b4",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 2,
+    "propertyRegistrationsCount": 2,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T09:25:34.665430300Z"
+  }
+}

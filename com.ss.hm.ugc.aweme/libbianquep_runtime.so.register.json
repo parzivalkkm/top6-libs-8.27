@@ -1,0 +1,22 @@
+{
+  "soName": "unknown",
+  "moduleName": "bianquep_runtime",
+  "propertyRegistrations": [
+    {
+      "propertyName": "add",
+      "address": "0x101b40",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 1,
+    "propertyRegistrationsCount": 1,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T13:49:56.347756300Z"
+  }
+}

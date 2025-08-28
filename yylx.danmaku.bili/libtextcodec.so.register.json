@@ -1,0 +1,27 @@
+{
+  "soName": "unknown",
+  "moduleName": "textcodec",
+  "propertyRegistrations": [
+    {
+      "propertyName": "encodeUtf8",
+      "address": "0x11b838",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "decodeUtf8",
+      "address": "0x11b968",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 2,
+    "propertyRegistrationsCount": 2,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T09:02:36.951927800Z"
+  }
+}

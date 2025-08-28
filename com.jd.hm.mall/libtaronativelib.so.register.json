@@ -1,0 +1,112 @@
+{
+  "soName": "unknown",
+  "moduleName": "taronativelib",
+  "propertyRegistrations": [
+    {
+      "propertyName": "registerCommComponentBuilder",
+      "address": "0x1170d0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "setEnvParams",
+      "address": "0x117118",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "reloadTemplate",
+      "address": "0x117120",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "triggerCustomEventWithParams",
+      "address": "0x117110",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "createContainer",
+      "address": "0x117128",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "updateDimensionContext",
+      "address": "0x117100",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "downloadCallback",
+      "address": "0x117148",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "setDebug",
+      "address": "0x1170d8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "registerReportCallback",
+      "address": "0x1170e8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "createContainerWithLoadInfo",
+      "address": "0x117130",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "callbackBridgeCall",
+      "address": "0x1170f8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "setConstraintSize",
+      "address": "0x117138",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "registerDownloadRequest",
+      "address": "0x117140",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "registerBridgeCallback",
+      "address": "0x1170e0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "registerGetPixelMapSyncWithText",
+      "address": "0x1170f0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "destroyContainer",
+      "address": "0x1170c8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "triggerCustomEvent",
+      "address": "0x117108",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "loadTemplate",
+      "address": "0x1170c0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getTemplateInfo",
+      "address": "0x117150",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 19,
+    "propertyRegistrationsCount": 19,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T09:31:42.112342400Z"
+  }
+}

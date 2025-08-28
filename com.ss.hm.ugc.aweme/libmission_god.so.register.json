@@ -1,0 +1,42 @@
+{
+  "soName": "unknown",
+  "moduleName": "mission_god",
+  "propertyRegistrations": [
+    {
+      "propertyName": "nPostTaskByOptions",
+      "address": "0x10b58c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nPostTaskAtFront",
+      "address": "0x10b7dc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nGetEventRunnerState",
+      "address": "0x10ba44",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nInit",
+      "address": "0x10b350",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nRequestFrameCallback",
+      "address": "0x10ba7c",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 5,
+    "propertyRegistrationsCount": 5,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T15:24:12.683000400Z"
+  }
+}

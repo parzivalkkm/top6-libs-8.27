@@ -1,0 +1,52 @@
+{
+  "soName": "unknown",
+  "moduleName": "logx",
+  "propertyRegistrations": [
+    {
+      "propertyName": "cloganSecret",
+      "address": "0x10b830",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "cloganWrite",
+      "address": "0x10b518",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "cloganDebug",
+      "address": "0x10af9c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "cloganFlush",
+      "address": "0x10b76c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "cloganDeinit",
+      "address": "0x10b8ec",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "cloganOpen",
+      "address": "0x10b3ac",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "cloganInit",
+      "address": "0x10b08c",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 7,
+    "propertyRegistrationsCount": 7,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T10:19:59.568695800Z"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "soName": "unknown",
+  "moduleName": "keva",
+  "propertyRegistrations": [],
+  "classRegistrations": [
+    {
+      "className": "KevaNativeImpl",
+      "constructor": {
+        "address": "0x11b31c"
+      },
+      "methods": [],
+      "properties": []
+    }
+  ],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 1,
+    "propertyRegistrationsCount": 0,
+    "classRegistrationsCount": 1,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T20:16:22.247456300Z"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "soName": "unknown",
+  "moduleName": "hpem_fault_detector",
+  "propertyRegistrations": [
+    {
+      "propertyName": "nFaultDetectorInit",
+      "address": "0x102898",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nHeapTrackerInit",
+      "address": "0x1029e0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "nTrackerLogParse",
+      "address": "0x102bf4",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 3,
+    "propertyRegistrationsCount": 3,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T14:32:39.664731600Z"
+  }
+}

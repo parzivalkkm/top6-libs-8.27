@@ -1,0 +1,224 @@
+{
+  "soName": "unknown",
+  "moduleName": "ijk",
+  "propertyRegistrations": [
+    {
+      "propertyName": "RSAVerify",
+      "address": "0x24cc08",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [
+    {
+      "className": "MediaAssetUpdateInfo",
+      "constructor": {
+        "address": "0x22d6c4"
+      },
+      "methods": [
+        {
+          "methodName": "get_reason",
+          "address": "0x22d460",
+          "type": "getter"
+        },
+        {
+          "methodName": "get_errorCode",
+          "address": "0x22d52c",
+          "type": "getter"
+        },
+        {
+          "methodName": "get_httpCode",
+          "address": "0x22d5f8",
+          "type": "getter"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "reason",
+          "getterAddress": "0x22d460"
+        },
+        {
+          "propertyName": "errorCode",
+          "getterAddress": "0x22d52c"
+        },
+        {
+          "propertyName": "httpCode",
+          "getterAddress": "0x22d5f8"
+        }
+      ]
+    },
+    {
+      "className": "IjkMessage",
+      "constructor": {
+        "address": "0x256c40"
+      },
+      "methods": [
+        {
+          "methodName": "setString",
+          "address": "0x256874",
+          "type": "method"
+        },
+        {
+          "methodName": "setWhat",
+          "address": "0x256384",
+          "type": "method"
+        },
+        {
+          "methodName": "setInt32",
+          "address": "0x256550",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "setString",
+          "methodAddress": "0x256874"
+        },
+        {
+          "propertyName": "setWhat",
+          "methodAddress": "0x256384"
+        },
+        {
+          "propertyName": "setInt32",
+          "methodAddress": "0x256550"
+        }
+      ]
+    },
+    {
+      "className": "PlayerMonitor",
+      "constructor": {
+        "address": "0x24c6a0"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "Option",
+      "constructor": {
+        "address": "0x24b3b0"
+      },
+      "methods": [
+        {
+          "methodName": "set",
+          "address": "0x24a7c8",
+          "type": "method"
+        },
+        {
+          "methodName": "keys",
+          "address": "0x24aec4",
+          "type": "method"
+        },
+        {
+          "methodName": "get",
+          "address": "0x24aba4",
+          "type": "method"
+        },
+        {
+          "methodName": "has",
+          "address": "0x24b148",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "set",
+          "methodAddress": "0x24a7c8"
+        },
+        {
+          "propertyName": "keys",
+          "methodAddress": "0x24aec4"
+        },
+        {
+          "propertyName": "get",
+          "methodAddress": "0x24aba4"
+        },
+        {
+          "propertyName": "has",
+          "methodAddress": "0x24b148"
+        }
+      ]
+    },
+    {
+      "className": "UnknownClass_137559811",
+      "constructor": {
+        "address": "0x2583a4"
+      },
+      "methods": [
+        {
+          "methodName": "notifyNetWorkChange",
+          "address": "0x258170",
+          "type": "method"
+        },
+        {
+          "methodName": "getHttpServerPort",
+          "address": "0x24da18",
+          "type": "method"
+        },
+        {
+          "methodName": "dump",
+          "address": "0x25825c",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "notifyNetWorkChange",
+          "methodAddress": "0x258170"
+        },
+        {
+          "propertyName": "getHttpServerPort",
+          "methodAddress": "0x24da18"
+        },
+        {
+          "propertyName": "dump",
+          "methodAddress": "0x25825c"
+        }
+      ]
+    },
+    {
+      "className": "Logger",
+      "constructor": {
+        "address": "0x250320"
+      },
+      "methods": [
+        {
+          "methodName": "Init",
+          "address": "0x24fbdc",
+          "type": "method"
+        },
+        {
+          "methodName": "Destroy",
+          "address": "0x2500a8",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "Init",
+          "methodAddress": "0x24fbdc"
+        },
+        {
+          "propertyName": "Destroy",
+          "methodAddress": "0x2500a8"
+        }
+      ]
+    },
+    {
+      "className": "PlayerMediaInfo",
+      "constructor": {
+        "address": "0x248474"
+      },
+      "methods": [],
+      "properties": []
+    }
+  ],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 8,
+    "propertyRegistrationsCount": 1,
+    "classRegistrationsCount": 7,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T10:29:38.587072300Z"
+  }
+}

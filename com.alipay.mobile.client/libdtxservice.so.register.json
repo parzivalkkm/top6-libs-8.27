@@ -1,0 +1,57 @@
+{
+  "soName": "unknown",
+  "moduleName": "dtxservice",
+  "propertyRegistrations": [
+    {
+      "propertyName": "setAppContextNative",
+      "address": "0x105414",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "dtxCloseSessionNative",
+      "address": "0x10aee4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "initDTXServiceMangerNative",
+      "address": "0x1054e4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "dtxOpenSessionNative",
+      "address": "0x10a3a4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "dtxGetAppletInfoNative",
+      "address": "0x10a894",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getDTXServiceMangerInstanceNative",
+      "address": "0x1054c8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "registerReflectionFuncNative",
+      "address": "0x105d7c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "dtxExecCmdNativeStr",
+      "address": "0x10ab58",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 8,
+    "propertyRegistrationsCount": 8,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-28T08:38:11.535303100Z"
+  }
+}

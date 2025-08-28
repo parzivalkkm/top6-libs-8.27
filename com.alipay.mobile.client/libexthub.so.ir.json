@@ -1,0 +1,1 @@
+{"hap_name":"@TEST_HAP_NAME","so_name":"libexthub.so","module_name":"exthub","functions":[{"name":"p","params":{"%a1":"napi_env","%a2":"napi_callback_info"},"instructions":[{"operand":"top","type":"Ret"}]}]}

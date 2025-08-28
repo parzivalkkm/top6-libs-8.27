@@ -1,0 +1,37 @@
+{
+  "soName": "unknown",
+  "moduleName": "perflibrary",
+  "propertyRegistrations": [
+    {
+      "propertyName": "sysUptimeMS",
+      "address": "0x10db80",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "perfZip",
+      "address": "0x107264",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "perfUnZip",
+      "address": "0x10749c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "perfGzip",
+      "address": "0x106ccc",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 4,
+    "propertyRegistrationsCount": 4,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T09:25:23.769856700Z"
+  }
+}

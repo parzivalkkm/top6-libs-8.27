@@ -1,0 +1,1 @@
+{"hap_name":"@TEST_HAP_NAME","so_name":"libliteapphelper.so","module_name":"liteapphelper","functions":[{"name":"initialize","params":{"%a1":"napi_env","%a2":"napi_callback_info"},"instructions":[{"callsite":"1074976","target":"operator.new","operands":["long 96"],"rets":{"%0":"-1"},"type":"Call"},{"operand":"top","type":"Ret"}]}]}

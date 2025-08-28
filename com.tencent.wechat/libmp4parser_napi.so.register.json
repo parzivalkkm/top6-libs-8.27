@@ -1,0 +1,47 @@
+{
+  "soName": "unknown",
+  "moduleName": "mp4parser_napi",
+  "propertyRegistrations": [
+    {
+      "propertyName": "exeFFmpegCmd",
+      "address": "0x1565fc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "exeFFprobeCmd",
+      "address": "0x1567ec",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "stopGetFrame",
+      "address": "0x156ee4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "openNativeLog",
+      "address": "0x1569dc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "setDataSource",
+      "address": "0x1569f4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getFrameAtTimeRang",
+      "address": "0x156bd0",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 6,
+    "propertyRegistrationsCount": 6,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T16:26:23.412063Z"
+  }
+}

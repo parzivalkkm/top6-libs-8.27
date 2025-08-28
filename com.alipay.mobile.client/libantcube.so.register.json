@@ -1,0 +1,37 @@
+{
+  "soName": "unknown",
+  "moduleName": "antcube",
+  "propertyRegistrations": [
+    {
+      "propertyName": "destroyWorker",
+      "address": "0x148cdc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "registerModule",
+      "address": "0x1488ac",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "initNative",
+      "address": "0x1487dc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "createWorker",
+      "address": "0x148bc0",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 4,
+    "propertyRegistrationsCount": 4,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-28T02:31:48.477250300Z"
+  }
+}

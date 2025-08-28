@@ -1,0 +1,42 @@
+{
+  "soName": "unknown",
+  "moduleName": "wbkycytwrapper",
+  "propertyRegistrations": [
+    {
+      "propertyName": "registerLogListener",
+      "address": "0x2472f0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "asyncWork",
+      "address": "0x228848",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "mgr",
+      "address": "0x2285e8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "exec_cpp_sync",
+      "address": "0x22783c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "register_js_callback",
+      "address": "0x2286f8",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 5,
+    "propertyRegistrationsCount": 5,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T16:03:16.085857400Z"
+  }
+}

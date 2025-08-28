@@ -1,0 +1,1 @@
+{"hap_name":"@TEST_HAP_NAME","so_name":"libcardsdk.so","module_name":"cardsdk","functions":[{"name":"|0\u0012","params":{"%a1":"napi_env","%a2":"napi_callback_info"},"instructions":[{"operand":"top","type":"Ret"}]}]}

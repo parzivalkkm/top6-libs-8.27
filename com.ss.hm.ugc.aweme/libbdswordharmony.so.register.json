@@ -1,0 +1,87 @@
+{
+  "soName": "unknown",
+  "moduleName": "libbdswordharmony",
+  "propertyRegistrations": [
+    {
+      "propertyName": "clientUnpackedNakedBase64",
+      "address": "0x1049c4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "clientUnpackedBase64",
+      "address": "0x10456c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "WBCKPackedNaked",
+      "address": "0x104f70",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "clientPacked",
+      "address": "0x103b64",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "genKeySeed",
+      "address": "0x103930",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "isSupportedMethod",
+      "address": "0x103a8c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "clientPackedNaked",
+      "address": "0x103ef8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "WBCKPacked",
+      "address": "0x104d34",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "clientPackedNakedBase64",
+      "address": "0x10412c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "clientPackedBase64",
+      "address": "0x103ccc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getCryptoMethod",
+      "address": "0x103a04",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "WBCKUnpacked",
+      "address": "0x1051a4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "clientUnpacked",
+      "address": "0x104410",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "clientUnpackedNaked",
+      "address": "0x1047b8",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 14,
+    "propertyRegistrationsCount": 14,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T13:38:09.044174800Z"
+  }
+}

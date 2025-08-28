@@ -1,0 +1,49 @@
+{
+  "soName": "unknown",
+  "moduleName": "cronet",
+  "propertyRegistrations": [],
+  "classRegistrations": [
+    {
+      "className": "TTNetworkChangeNotifier",
+      "constructor": {
+        "address": "0x139f00"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TTHttpRequest",
+      "constructor": {
+        "address": "0x1369ac"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TTCronetEngine",
+      "constructor": {
+        "address": "0x12ff1c"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TTWebsocketClient",
+      "constructor": {
+        "address": "0x13a858"
+      },
+      "methods": [],
+      "properties": []
+    }
+  ],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 4,
+    "propertyRegistrationsCount": 0,
+    "classRegistrationsCount": 4,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T19:55:39.471864600Z"
+  }
+}

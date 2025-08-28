@@ -1,0 +1,32 @@
+{
+  "soName": "unknown",
+  "moduleName": "ctaccount",
+  "propertyRegistrations": [
+    {
+      "propertyName": "nqaufnasj",
+      "address": "0x110528",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "sdhgfksdjg",
+      "address": "0x10f4a4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "shigwignas",
+      "address": "0x1106d4",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 3,
+    "propertyRegistrationsCount": 3,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T13:32:41.462622900Z"
+  }
+}

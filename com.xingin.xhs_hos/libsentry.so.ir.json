@@ -1,0 +1,1 @@
+{"hap_name":"@TEST_HAP_NAME","so_name":"libsentry.so","module_name":"sentry","functions":[{"name":"createNativeCrash","params":{"%a1":"napi_env","%a2":"napi_callback_info"},"instructions":[{"operand":"top","type":"Ret"}]}]}

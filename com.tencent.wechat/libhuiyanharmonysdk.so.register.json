@@ -1,0 +1,37 @@
+{
+  "soName": "unknown",
+  "moduleName": "HuiyanHarmonySDK",
+  "propertyRegistrations": [
+    {
+      "propertyName": "mgr",
+      "address": "0x1c2308",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "set_js_exec",
+      "address": "0x1c2418",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "exec_cpp",
+      "address": "0x1c252c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "exec_cpp_sync",
+      "address": "0x1c2640",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 4,
+    "propertyRegistrationsCount": 4,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T14:32:59.379515800Z"
+  }
+}

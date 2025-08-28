@@ -1,0 +1,77 @@
+{
+  "soName": "unknown",
+  "moduleName": "aliautologin",
+  "propertyRegistrations": [
+    {
+      "propertyName": "registerUccProvider",
+      "address": "0x20f450",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "autoLoginSync",
+      "address": "0x1f62f8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "autoLoginTaobaoSync",
+      "address": "0x1f6dbc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "autoLoginTaobaoAsync",
+      "address": "0x1f67ec",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "autoLoginAsync",
+      "address": "0x1f543c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "autoLoginCookieBySite",
+      "address": "0x1f81d8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "autoLoginTaobaoData",
+      "address": "0x1f7a64",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "version",
+      "address": "0x2ba66c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "asyncGetUserToken",
+      "address": "0x21ca40",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "autoLoginDataBySite",
+      "address": "0x1f7e84",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "aliAutoLoginAsyncByParams",
+      "address": "0x1f8a64",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "canAutologin",
+      "address": "0x1f7104",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 12,
+    "propertyRegistrationsCount": 12,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-28T01:40:03.916495Z"
+  }
+}

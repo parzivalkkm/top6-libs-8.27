@@ -1,0 +1,87 @@
+{
+  "soName": "unknown",
+  "moduleName": "nativeGpu",
+  "propertyRegistrations": [
+    {
+      "propertyName": "EglRenderSetImageData",
+      "address": "0x10c62c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "EglUseProgram",
+      "address": "0x10d020",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "EglRenderSetIntParams",
+      "address": "0x10c910",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "EglPixelMapSurface",
+      "address": "0x10cb58",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "EglSetTypeArrayOfFloat",
+      "address": "0x10d17c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "EglUniform1i",
+      "address": "0x10d8f8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "EglSetTypeArrayOfMatrix3f",
+      "address": "0x10d590",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "EglRenderInit",
+      "address": "0x10c2e4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "EglSetTypeArrayOfMatrix4f",
+      "address": "0x10d778",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "EglDestroy",
+      "address": "0x10ceac",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "EglIsInit",
+      "address": "0x10cde4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "EglUniform2fv",
+      "address": "0x10dc0c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "EglUniform1f",
+      "address": "0x10dab4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "EglRendering",
+      "address": "0x10d140",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 14,
+    "propertyRegistrationsCount": 14,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T16:26:33.071261300Z"
+  }
+}

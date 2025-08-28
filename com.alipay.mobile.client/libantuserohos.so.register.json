@@ -1,0 +1,67 @@
+{
+  "soName": "unknown",
+  "moduleName": "antuserohos",
+  "propertyRegistrations": [
+    {
+      "propertyName": "invokeAsync",
+      "address": "0xc3479c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "invokePromise",
+      "address": "0xc34bd4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "addSubscriber",
+      "address": "0xc4f6ec",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "providerManager",
+      "address": "0xd69a2c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "utils",
+      "address": "0xd6c86c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "context",
+      "address": "0xd6a99c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "invoke",
+      "address": "0xc3440c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "constants",
+      "address": "0xd6b904",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "version",
+      "address": "0xc5ac04",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "executeRequest",
+      "address": "0xc2ed70",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 10,
+    "propertyRegistrationsCount": 10,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-28T06:57:01.473808300Z"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "soName": "unknown",
+  "moduleName": "bloxohos",
+  "propertyRegistrations": [
+    {
+      "propertyName": "",
+      "address": "0x90c7b0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "\tY\u0019",
+      "address": "0x90f278",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 2,
+    "propertyRegistrationsCount": 2,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-28T07:52:21.515558500Z"
+  }
+}

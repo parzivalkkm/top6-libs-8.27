@@ -1,0 +1,107 @@
+{
+  "soName": "unknown",
+  "moduleName": "antuser_context",
+  "propertyRegistrations": [
+    {
+      "propertyName": "sessionInfo",
+      "address": "0x11ae68",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "init",
+      "address": "0x11ac00",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "loginId",
+      "address": "0x11ace0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "debug",
+      "address": "0x11af48",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "hasLoggedIn",
+      "address": "0x11adc0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "subscribe",
+      "address": "0x11aed8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "isCertified",
+      "address": "0x11ae30",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "loginToken",
+      "address": "0x11ad18",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "error",
+      "address": "0x11af80",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "userId",
+      "address": "0x11aca8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "autoLoginEnabled",
+      "address": "0x11adf8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "warn",
+      "address": "0x11afb8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "externToken",
+      "address": "0x11ad50",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "setContext",
+      "address": "0x11ac70",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "isLoggedIn",
+      "address": "0x11ad88",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getContext",
+      "address": "0x11ac38",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "executeRequest",
+      "address": "0x11aea0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "info",
+      "address": "0x11af10",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 18,
+    "propertyRegistrationsCount": 18,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-28T04:51:40.831146100Z"
+  }
+}

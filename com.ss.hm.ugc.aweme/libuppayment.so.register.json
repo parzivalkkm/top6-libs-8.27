@@ -1,0 +1,187 @@
+{
+  "soName": "unknown",
+  "moduleName": "entry",
+  "propertyRegistrations": [
+    {
+      "propertyName": "accountVerifyMessage",
+      "address": "0x136fdc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getTalkingDataId",
+      "address": "0x134a98",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "openUpgradeMessage",
+      "address": "0x1361a0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "forWap",
+      "address": "0x137858",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "rsaEncryptMessageForHFT",
+      "address": "0x134fa4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "encryptPayData",
+      "address": "0x1380dc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "followRulesMessage",
+      "address": "0x136390",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "encryptMessage",
+      "address": "0x134e3c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "aesEncryptData",
+      "address": "0x137db4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "banksMessage",
+      "address": "0x135780",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "initMessage",
+      "address": "0x135590",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "retrieveInitializeKey",
+      "address": "0x1354b4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "unBoundMessage",
+      "address": "0x135b4c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "payingMessage",
+      "address": "0x136580",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "setSessionKey",
+      "address": "0x134bbc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "moreBanksMessage",
+      "address": "0x1358d8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getLoginRules",
+      "address": "0x1373bc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "openRuleMessage",
+      "address": "0x135f2c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getServerUrl",
+      "address": "0x134834",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "smsCodeMessage",
+      "address": "0x137514",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "decryptResponse",
+      "address": "0x134cd4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "initNativeEnv",
+      "address": "0x134354",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "ruleMessage",
+      "address": "0x135d3c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "queryMessage",
+      "address": "0x136d68",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "commonMessage",
+      "address": "0x136af4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "freeNativeData",
+      "address": "0x137788",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "decryptPayData",
+      "address": "0x138550",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "forUrl",
+      "address": "0x137bd0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "forConfig",
+      "address": "0x137a14",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "aesDecryptData",
+      "address": "0x137f48",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getUserInfo",
+      "address": "0x1371cc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "desEncryptMessage",
+      "address": "0x13510c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "actEntrustMessage",
+      "address": "0x136904",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "rsaPrivateEncryptMessage",
+      "address": "0x13534c",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 34,
+    "propertyRegistrationsCount": 34,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T16:31:38.316305900Z"
+  }
+}

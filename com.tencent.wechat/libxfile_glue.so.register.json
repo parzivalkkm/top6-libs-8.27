@@ -1,0 +1,32 @@
+{
+  "soName": "unknown",
+  "moduleName": "xfile_glue",
+  "propertyRegistrations": [
+    {
+      "propertyName": "",
+      "address": "0x14cca8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "NSt4__n110shared_ptrI4FileE27__shared_ptr_default_deleteIS1_S1_EE",
+      "address": "0x14cea8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "clearCache",
+      "address": "0x12947c",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 3,
+    "propertyRegistrationsCount": 3,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T18:48:36.558879100Z"
+  }
+}

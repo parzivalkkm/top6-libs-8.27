@@ -1,0 +1,37 @@
+{
+  "soName": "unknown",
+  "moduleName": "mobileconfig",
+  "propertyRegistrations": [
+    {
+      "propertyName": "getConfigAll",
+      "address": "0x10b394",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "updateConfig",
+      "address": "0x10b268",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getConfigs",
+      "address": "0x10b7e4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getConfig",
+      "address": "0x10bb78",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 4,
+    "propertyRegistrationsCount": 4,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T09:20:24.342312500Z"
+  }
+}

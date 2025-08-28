@@ -1,0 +1,42 @@
+{
+  "soName": "unknown",
+  "moduleName": "feat_hd_viewer",
+  "propertyRegistrations": [
+    {
+      "propertyName": "destroyImageData",
+      "address": "0x117038",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "initImageDataByPath",
+      "address": "0x116870",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "uriToPath",
+      "address": "0x117584",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getPixelsAsync",
+      "address": "0x115b7c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "initImageData",
+      "address": "0x1161b0",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 5,
+    "propertyRegistrationsCount": 5,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T14:08:44.931143900Z"
+  }
+}

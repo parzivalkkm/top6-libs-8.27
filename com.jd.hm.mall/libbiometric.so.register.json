@@ -1,0 +1,42 @@
+{
+  "soName": "unknown",
+  "moduleName": "biometric",
+  "propertyRegistrations": [
+    {
+      "propertyName": "getCacheToken",
+      "address": "0x16d6b0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "dataRecovery",
+      "address": "0x16ddfc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "initBiometric",
+      "address": "0x16d428",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getCommonID",
+      "address": "0x16dc88",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getCacheLogo",
+      "address": "0x16d99c",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 5,
+    "propertyRegistrationsCount": 5,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T10:09:48.861963900Z"
+  }
+}

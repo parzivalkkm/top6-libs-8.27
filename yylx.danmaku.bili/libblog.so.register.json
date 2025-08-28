@@ -1,0 +1,42 @@
+{
+  "soName": "unknown",
+  "moduleName": "blog",
+  "propertyRegistrations": [
+    {
+      "propertyName": "flush",
+      "address": "0x179438",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "log",
+      "address": "0x179248",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "liteFlush",
+      "address": "0x179450",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "initialize",
+      "address": "0x178c30",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "event",
+      "address": "0x179090",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 5,
+    "propertyRegistrationsCount": 5,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T08:02:30.018959400Z"
+  }
+}

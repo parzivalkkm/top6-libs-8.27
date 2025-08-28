@@ -1,0 +1,1623 @@
+{
+  "soName": "unknown",
+  "moduleName": "ThumbPlayer",
+  "propertyRegistrations": [
+    {
+      "propertyName": "",
+      "address": "0x9a9f00",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "p",
+      "address": "0x9a8ec0",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [
+    {
+      "className": "TPMediaAssetParamMap",
+      "constructor": {
+        "address": "0x62e9d0"
+      },
+      "methods": [
+        {
+          "methodName": "add",
+          "address": "0x62e638",
+          "type": "method"
+        },
+        {
+          "methodName": "getParamMap",
+          "address": "0x62e86c",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "add",
+          "methodAddress": "0x62e638"
+        },
+        {
+          "propertyName": "getParamMap",
+          "methodAddress": "0x62e86c"
+        }
+      ]
+    },
+    {
+      "className": "TPDecoderCapability",
+      "constructor": {
+        "address": "0x669160"
+      },
+      "methods": [
+        {
+          "methodName": "addCustomizedVideoOHAVCodecCapability",
+          "address": "0x668d68",
+          "type": "method"
+        },
+        {
+          "methodName": "addCustomizedAudioOHAVCodecCapability",
+          "address": "0x668fd8",
+          "type": "method"
+        },
+        {
+          "methodName": "getAudioDecoderCapability",
+          "address": "0x668ad0",
+          "type": "method"
+        },
+        {
+          "methodName": "getVideoDecoderCapability",
+          "address": "0x66879c",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "addCustomizedVideoOHAVCodecCapability",
+          "methodAddress": "0x668d68"
+        },
+        {
+          "propertyName": "addCustomizedAudioOHAVCodecCapability",
+          "methodAddress": "0x668fd8"
+        },
+        {
+          "propertyName": "getAudioDecoderCapability",
+          "methodAddress": "0x668ad0"
+        },
+        {
+          "propertyName": "getVideoDecoderCapability",
+          "methodAddress": "0x66879c"
+        }
+      ]
+    },
+    {
+      "className": "TPVideoCropInfo",
+      "constructor": {
+        "address": "0x64f6a0"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPTimeRange",
+      "constructor": {
+        "address": "0x65df90"
+      },
+      "methods": [
+        {
+          "methodName": "get_startTimeMs",
+          "address": "0x65e3ec",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_startTimeMs",
+          "address": "0x65e704",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_endTimeMs",
+          "address": "0x65ea10",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_endTimeMs",
+          "address": "0x65ebf0",
+          "type": "setter"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "startTimeMs",
+          "getterAddress": "0x65e3ec",
+          "setterAddress": "0x65e704"
+        },
+        {
+          "propertyName": "endTimeMs",
+          "getterAddress": "0x65ea10",
+          "setterAddress": "0x65ebf0"
+        }
+      ]
+    },
+    {
+      "className": "TPAudioCapabilityQueryParams",
+      "constructor": {
+        "address": "0x666078"
+      },
+      "methods": [
+        {
+          "methodName": "get_decoderType",
+          "address": "0x666a20",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_decoderType",
+          "address": "0x666db4",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_channelLayout",
+          "address": "0x667194",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_channelLayout",
+          "address": "0x6674b0",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_objectCount",
+          "address": "0x667df0",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_objectCount",
+          "address": "0x667fd8",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_hoaOrder",
+          "address": "0x6681c0",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_hoaOrder",
+          "address": "0x6683a4",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_codecType",
+          "address": "0x6662b4",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_codecType",
+          "address": "0x666644",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_sampleRate",
+          "address": "0x6677c0",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_sampleRate",
+          "address": "0x667adc",
+          "type": "setter"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "decoderType",
+          "getterAddress": "0x666a20",
+          "setterAddress": "0x666db4"
+        },
+        {
+          "propertyName": "channelLayout",
+          "getterAddress": "0x667194",
+          "setterAddress": "0x6674b0"
+        },
+        {
+          "propertyName": "objectCount",
+          "getterAddress": "0x667df0",
+          "setterAddress": "0x667fd8"
+        },
+        {
+          "propertyName": "hoaOrder",
+          "getterAddress": "0x6681c0",
+          "setterAddress": "0x6683a4"
+        },
+        {
+          "propertyName": "codecType",
+          "getterAddress": "0x6662b4",
+          "setterAddress": "0x666644"
+        },
+        {
+          "propertyName": "sampleRate",
+          "getterAddress": "0x6677c0",
+          "setterAddress": "0x667adc"
+        }
+      ]
+    },
+    {
+      "className": "TPFdMediaAsset",
+      "constructor": {
+        "address": "0x62ef24"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "ITPRichMediaAsyncRequester",
+      "constructor": {
+        "address": "0x688890"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPResourceLoaderMediaContentInfoBuilder",
+      "constructor": {
+        "address": "0x685464"
+      },
+      "methods": [
+        {
+          "methodName": "buildSuccessfulContentInfo",
+          "address": "0x684dcc",
+          "type": "method"
+        },
+        {
+          "methodName": "buildTryAgainContentInfo",
+          "address": "0x6850cc",
+          "type": "method"
+        },
+        {
+          "methodName": "buildErrorContentInfo",
+          "address": "0x685298",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "buildSuccessfulContentInfo",
+          "methodAddress": "0x684dcc"
+        },
+        {
+          "propertyName": "buildTryAgainContentInfo",
+          "methodAddress": "0x6850cc"
+        },
+        {
+          "propertyName": "buildErrorContentInfo",
+          "methodAddress": "0x685298"
+        }
+      ]
+    },
+    {
+      "className": "TPRtcMediaAsset",
+      "constructor": {
+        "address": "0x634270"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPMediaAssetFactory",
+      "constructor": {
+        "address": "0x62ce78"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPProgramInfo",
+      "constructor": {
+        "address": "0x64656c"
+      },
+      "methods": [
+        {
+          "methodName": "get_bandwidth",
+          "address": "0x646ffc",
+          "type": "getter"
+        },
+        {
+          "methodName": "get_isActivated",
+          "address": "0x6469bc",
+          "type": "getter"
+        },
+        {
+          "methodName": "get_resolution",
+          "address": "0x647318",
+          "type": "getter"
+        },
+        {
+          "methodName": "get_programId",
+          "address": "0x646cdc",
+          "type": "getter"
+        },
+        {
+          "methodName": "get_url",
+          "address": "0x647794",
+          "type": "getter"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "bandwidth",
+          "getterAddress": "0x646ffc"
+        },
+        {
+          "propertyName": "isActivated",
+          "getterAddress": "0x6469bc"
+        },
+        {
+          "propertyName": "resolution",
+          "getterAddress": "0x647318"
+        },
+        {
+          "propertyName": "programId",
+          "getterAddress": "0x646cdc"
+        },
+        {
+          "propertyName": "url",
+          "getterAddress": "0x647794"
+        }
+      ]
+    },
+    {
+      "className": "TPRichMediaFactory",
+      "constructor": {
+        "address": "0x689360"
+      },
+      "methods": [
+        {
+          "methodName": "createRichMediaAsyncRequester",
+          "address": "0x689238",
+          "type": "method"
+        },
+        {
+          "methodName": "createRichMediaSynchronizer",
+          "address": "0x689110",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "createRichMediaAsyncRequester",
+          "methodAddress": "0x689238"
+        },
+        {
+          "propertyName": "createRichMediaSynchronizer",
+          "methodAddress": "0x689110"
+        }
+      ]
+    },
+    {
+      "className": "TPTrackInfo",
+      "constructor": {
+        "address": "0x643f98"
+      },
+      "methods": [
+        {
+          "methodName": "get_isInternal",
+          "address": "0x645ed8",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_isInternal",
+          "address": "0x6460bc",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_isExclusive",
+          "address": "0x645b0c",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_isExclusive",
+          "address": "0x645cf0",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_name",
+          "address": "0x644bd4",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_name",
+          "address": "0x645040",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_isSelected",
+          "address": "0x6454d8",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_isSelected",
+          "address": "0x6457f8",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_containerInfo",
+          "address": "0x643e4c",
+          "type": "getter"
+        },
+        {
+          "methodName": "get_mediaType",
+          "address": "0x644460",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_mediaType",
+          "address": "0x6447f4",
+          "type": "setter"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "isInternal",
+          "getterAddress": "0x645ed8",
+          "setterAddress": "0x6460bc"
+        },
+        {
+          "propertyName": "isExclusive",
+          "getterAddress": "0x645b0c",
+          "setterAddress": "0x645cf0"
+        },
+        {
+          "propertyName": "name",
+          "getterAddress": "0x644bd4",
+          "setterAddress": "0x645040"
+        },
+        {
+          "propertyName": "isSelected",
+          "getterAddress": "0x6454d8",
+          "setterAddress": "0x6457f8"
+        },
+        {
+          "propertyName": "containerInfo",
+          "getterAddress": "0x643e4c"
+        },
+        {
+          "propertyName": "mediaType",
+          "getterAddress": "0x644460",
+          "setterAddress": "0x6447f4"
+        }
+      ]
+    },
+    {
+      "className": "TPSubtitleBackgroundParams",
+      "constructor": {
+        "address": "0x662e00"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPResourceLoaderDataBuilder",
+      "constructor": {
+        "address": "0x684948"
+      },
+      "methods": [
+        {
+          "methodName": "buildSuccessfulData",
+          "address": "0x684398",
+          "type": "method"
+        },
+        {
+          "methodName": "buildErrorData",
+          "address": "0x6847a0",
+          "type": "method"
+        },
+        {
+          "methodName": "buildTryAgainData",
+          "address": "0x6845fc",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "buildSuccessfulData",
+          "methodAddress": "0x684398"
+        },
+        {
+          "propertyName": "buildErrorData",
+          "methodAddress": "0x6847a0"
+        },
+        {
+          "propertyName": "buildTryAgainData",
+          "methodAddress": "0x6845fc"
+        }
+      ]
+    },
+    {
+      "className": "TPHlsTag",
+      "constructor": {
+        "address": "0x647e30"
+      },
+      "methods": [
+        {
+          "methodName": "get_frameRate",
+          "address": "0x64a39c",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_frameRate",
+          "address": "0x64a6b8",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_bandwidth",
+          "address": "0x649798",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_bandwidth",
+          "address": "0x649ab0",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_groupID",
+          "address": "0x6491b4",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_groupID",
+          "address": "0x6494b0",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_codecs",
+          "address": "0x64a9cc",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_codecs",
+          "address": "0x64accc",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_name",
+          "address": "0x6482e8",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_name",
+          "address": "0x648748",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_language",
+          "address": "0x648bd4",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_language",
+          "address": "0x648ed0",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_resolution",
+          "address": "0x649dbc",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_resolution",
+          "address": "0x64a0b8",
+          "type": "setter"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "frameRate",
+          "getterAddress": "0x64a39c",
+          "setterAddress": "0x64a6b8"
+        },
+        {
+          "propertyName": "bandwidth",
+          "getterAddress": "0x649798",
+          "setterAddress": "0x649ab0"
+        },
+        {
+          "propertyName": "containerType"
+        },
+        {
+          "propertyName": "groupID",
+          "getterAddress": "0x6491b4",
+          "setterAddress": "0x6494b0"
+        },
+        {
+          "propertyName": "codecs",
+          "getterAddress": "0x64a9cc",
+          "setterAddress": "0x64accc"
+        },
+        {
+          "propertyName": "name",
+          "getterAddress": "0x6482e8",
+          "setterAddress": "0x648748"
+        },
+        {
+          "propertyName": "language",
+          "getterAddress": "0x648bd4",
+          "setterAddress": "0x648ed0"
+        },
+        {
+          "propertyName": "resolution",
+          "getterAddress": "0x649dbc",
+          "setterAddress": "0x64a0b8"
+        }
+      ]
+    },
+    {
+      "className": "TPSubtitleRenderParams",
+      "constructor": {
+        "address": "0x656950"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPResourceLoaderMediaContentInfo",
+      "constructor": {
+        "address": "0x683e50"
+      },
+      "methods": [
+        {
+          "methodName": "getContentType",
+          "address": "0x683b14",
+          "type": "method"
+        },
+        {
+          "methodName": "getContentLength",
+          "address": "0x683cdc",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "getContentType",
+          "methodAddress": "0x683b14"
+        },
+        {
+          "propertyName": "getContentLength",
+          "methodAddress": "0x683cdc"
+        }
+      ]
+    },
+    {
+      "className": "TPDrmCapAttribute",
+      "constructor": {
+        "address": "0x66ca60"
+      },
+      "methods": [
+        {
+          "methodName": "get_securityLevel",
+          "address": "0x66d560",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_securityLevel",
+          "address": "0x66d9c8",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_supportCryptoSchemeTypes",
+          "address": "0x66e480",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_supportCryptoSchemeTypes",
+          "address": "0x66e664",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_drmType",
+          "address": "0x66cdfc",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_drmType",
+          "address": "0x66d188",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_maxNumberOfSessions",
+          "address": "0x66de5c",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_maxNumberOfSessions",
+          "address": "0x66e174",
+          "type": "setter"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "securityLevel",
+          "getterAddress": "0x66d560",
+          "setterAddress": "0x66d9c8"
+        },
+        {
+          "propertyName": "supportCryptoSchemeTypes",
+          "getterAddress": "0x66e480",
+          "setterAddress": "0x66e664"
+        },
+        {
+          "propertyName": "drmType",
+          "getterAddress": "0x66cdfc",
+          "setterAddress": "0x66d188"
+        },
+        {
+          "propertyName": "maxNumberOfSessions",
+          "getterAddress": "0x66de5c",
+          "setterAddress": "0x66e174"
+        }
+      ]
+    },
+    {
+      "className": "TPSubtitleText",
+      "constructor": {
+        "address": "0x66252c"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPVideoSeiInfo",
+      "constructor": {
+        "address": "0x654cb4"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPDrmMediaAsset",
+      "constructor": {
+        "address": "0x62d9b0"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPUrlMediaAsset",
+      "constructor": {
+        "address": "0x62abcc"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPOptionalParam",
+      "constructor": {
+        "address": "0x6239c0"
+      },
+      "methods": [
+        {
+          "methodName": "getKey",
+          "address": "0x623530",
+          "type": "method"
+        },
+        {
+          "methodName": "getValue",
+          "address": "0x6236ec",
+          "type": "method"
+        },
+        {
+          "methodName": "isBeforeOptionalParam",
+          "address": "0x623850",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "getKey",
+          "methodAddress": "0x623530"
+        },
+        {
+          "propertyName": "getValue",
+          "methodAddress": "0x6236ec"
+        },
+        {
+          "propertyName": "isBeforeOptionalParam",
+          "methodAddress": "0x623850"
+        }
+      ]
+    },
+    {
+      "className": "TPMgr",
+      "constructor": {
+        "address": "0x621bd8"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "ITPPlayer",
+      "constructor": {
+        "address": "0x67bf38"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPAudioFrameBuffer",
+      "constructor": {
+        "address": "0x638d98"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPVideoFrameBuffer",
+      "constructor": {
+        "address": "0x63beec"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "ITPRichMediaSynchronizer",
+      "constructor": {
+        "address": "0x692204"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPMultiMediaAssetNapi",
+      "constructor": {
+        "address": "0x62c094"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPResourceLoaderData",
+      "constructor": {
+        "address": "0x6835dc"
+      },
+      "methods": [
+        {
+          "methodName": "getRetCode",
+          "address": "0x683498",
+          "type": "method"
+        },
+        {
+          "methodName": "getData",
+          "address": "0x683294",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "getRetCode",
+          "methodAddress": "0x683498"
+        },
+        {
+          "propertyName": "getData",
+          "methodAddress": "0x683294"
+        }
+      ]
+    },
+    {
+      "className": "TPDrmCapability",
+      "constructor": {
+        "address": "0x66f0c0"
+      },
+      "methods": [
+        {
+          "methodName": "getDrmCapAttribute",
+          "address": "0x66eb48",
+          "type": "method"
+        },
+        {
+          "methodName": "addCustomizedMediaDrmCapability",
+          "address": "0x66ef0c",
+          "type": "method"
+        },
+        {
+          "methodName": "getDrmCapability",
+          "address": "0x66ea0c",
+          "type": "method"
+        },
+        {
+          "methodName": "getDrmCapAttributes",
+          "address": "0x66ed20",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "getDrmCapAttribute",
+          "methodAddress": "0x66eb48"
+        },
+        {
+          "propertyName": "addCustomizedMediaDrmCapability",
+          "methodAddress": "0x66ef0c"
+        },
+        {
+          "propertyName": "getDrmCapability",
+          "methodAddress": "0x66ea0c"
+        },
+        {
+          "propertyName": "getDrmCapAttributes",
+          "methodAddress": "0x66ed20"
+        }
+      ]
+    },
+    {
+      "className": "ITPPreloader",
+      "constructor": {
+        "address": "0x67e6e8"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPRichMediaFeature",
+      "constructor": {
+        "address": "0x68d018"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPVideoDecoderCapabilityRange",
+      "constructor": {
+        "address": "0x6695d0"
+      },
+      "methods": [
+        {
+          "methodName": "get_lowerHeight",
+          "address": "0x66ac0c",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_lowerHeight",
+          "address": "0x66adf0",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_upperWidth",
+          "address": "0x66980c",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_upperWidth",
+          "address": "0x669b28",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_lowerWidth",
+          "address": "0x66a838",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_lowerWidth",
+          "address": "0x66aa20",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_upperHeight",
+          "address": "0x669e38",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_upperHeight",
+          "address": "0x66a01c",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_upperFrameRate",
+          "address": "0x66a204",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_upperFrameRate",
+          "address": "0x66a520",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_lowerFrameRate",
+          "address": "0x66afd8",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_lowerFrameRate",
+          "address": "0x66b1c4",
+          "type": "setter"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "lowerHeight",
+          "getterAddress": "0x66ac0c",
+          "setterAddress": "0x66adf0"
+        },
+        {
+          "propertyName": "upperWidth",
+          "getterAddress": "0x66980c",
+          "setterAddress": "0x669b28"
+        },
+        {
+          "propertyName": "lowerWidth",
+          "getterAddress": "0x66a838",
+          "setterAddress": "0x66aa20"
+        },
+        {
+          "propertyName": "upperHeight",
+          "getterAddress": "0x669e38",
+          "setterAddress": "0x66a01c"
+        },
+        {
+          "propertyName": "upperFrameRate",
+          "getterAddress": "0x66a204",
+          "setterAddress": "0x66a520"
+        },
+        {
+          "propertyName": "lowerFrameRate",
+          "getterAddress": "0x66afd8",
+          "setterAddress": "0x66b1c4"
+        }
+      ]
+    },
+    {
+      "className": "TPMediaDrmInfo",
+      "constructor": {
+        "address": "0x65357c"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPRemoteSdpInfo",
+      "constructor": {
+        "address": "0x631f64"
+      },
+      "methods": [
+        {
+          "methodName": "get_success",
+          "address": "0x632214",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_success",
+          "address": "0x6325d4",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_remoteSdp",
+          "address": "0x6330fc",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_remoteSdp",
+          "address": "0x633568",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_sessionID",
+          "address": "0x632988",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_sessionID",
+          "address": "0x632d48",
+          "type": "setter"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "success",
+          "getterAddress": "0x632214",
+          "setterAddress": "0x6325d4"
+        },
+        {
+          "propertyName": "remoteSdp",
+          "getterAddress": "0x6330fc",
+          "setterAddress": "0x633568"
+        },
+        {
+          "propertyName": "sessionID",
+          "getterAddress": "0x632988",
+          "setterAddress": "0x632d48"
+        }
+      ]
+    },
+    {
+      "className": "TPRichMediaOptParam",
+      "constructor": {
+        "address": "0x68e748"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "ITPSimulatedLiveAssetRequest",
+      "constructor": {
+        "address": "0x630730"
+      },
+      "methods": [
+        {
+          "methodName": "appendMediaAsset",
+          "address": "0x63054c",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "appendMediaAsset",
+          "methodAddress": "0x63054c"
+        }
+      ]
+    },
+    {
+      "className": "TPRichMediaContent",
+      "constructor": {
+        "address": "0x689768"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPJitterBufferParams",
+      "constructor": {
+        "address": "0x651588"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPSimulatedLiveMediaAssetNapi",
+      "constructor": {
+        "address": "0x62f934"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPHdrCapAttribute",
+      "constructor": {
+        "address": "0x66b944"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPDashFormat",
+      "constructor": {
+        "address": "0x64b37c"
+      },
+      "methods": [
+        {
+          "methodName": "get_frameRate",
+          "address": "0x64edd8",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_frameRate",
+          "address": "0x64f0f4",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_channels",
+          "address": "0x64e64c",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_channels",
+          "address": "0x64e82c",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_representationId",
+          "address": "0x64b828",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_representationId",
+          "address": "0x64bc88",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_bandwidth",
+          "address": "0x64e288",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_bandwidth",
+          "address": "0x64e468",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_codecs",
+          "address": "0x64c114",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_codecs",
+          "address": "0x64c410",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_width",
+          "address": "0x64d89c",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_width",
+          "address": "0x64dbb8",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_samplingRate",
+          "address": "0x64ea10",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_samplingRate",
+          "address": "0x64ebf0",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_language",
+          "address": "0x64ccd4",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_language",
+          "address": "0x64cfd4",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_mimeType",
+          "address": "0x64c6f4",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_mimeType",
+          "address": "0x64c9f0",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_label",
+          "address": "0x64d2b8",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_label",
+          "address": "0x64d5b4",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_height",
+          "address": "0x64dec4",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_height",
+          "address": "0x64e0a4",
+          "type": "setter"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "frameRate",
+          "getterAddress": "0x64edd8",
+          "setterAddress": "0x64f0f4"
+        },
+        {
+          "propertyName": "channels",
+          "getterAddress": "0x64e64c",
+          "setterAddress": "0x64e82c"
+        },
+        {
+          "propertyName": "representationId",
+          "getterAddress": "0x64b828",
+          "setterAddress": "0x64bc88"
+        },
+        {
+          "propertyName": "bandwidth",
+          "getterAddress": "0x64e288",
+          "setterAddress": "0x64e468"
+        },
+        {
+          "propertyName": "containerType"
+        },
+        {
+          "propertyName": "codecs",
+          "getterAddress": "0x64c114",
+          "setterAddress": "0x64c410"
+        },
+        {
+          "propertyName": "width",
+          "getterAddress": "0x64d89c",
+          "setterAddress": "0x64dbb8"
+        },
+        {
+          "propertyName": "samplingRate",
+          "getterAddress": "0x64ea10",
+          "setterAddress": "0x64ebf0"
+        },
+        {
+          "propertyName": "language",
+          "getterAddress": "0x64ccd4",
+          "setterAddress": "0x64cfd4"
+        },
+        {
+          "propertyName": "mimeType",
+          "getterAddress": "0x64c6f4",
+          "setterAddress": "0x64c9f0"
+        },
+        {
+          "propertyName": "label",
+          "getterAddress": "0x64d2b8",
+          "setterAddress": "0x64d5b4"
+        },
+        {
+          "propertyName": "height",
+          "getterAddress": "0x64dec4",
+          "setterAddress": "0x64e0a4"
+        }
+      ]
+    },
+    {
+      "className": "TPPlayerConstructParams",
+      "constructor": {
+        "address": "0x6758e4"
+      },
+      "methods": [
+        {
+          "methodName": "addOptionalParam",
+          "address": "0x6753d8",
+          "type": "method"
+        },
+        {
+          "methodName": "getOptionalParams",
+          "address": "0x675618",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "addOptionalParam",
+          "methodAddress": "0x6753d8"
+        },
+        {
+          "propertyName": "getOptionalParams",
+          "methodAddress": "0x675618"
+        }
+      ]
+    },
+    {
+      "className": "TPDebugTrackingInfo",
+      "constructor": {
+        "address": "0x6404bc"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPAudioRenderConfig",
+      "constructor": {
+        "address": "0x665300"
+      },
+      "methods": [
+        {
+          "methodName": "get_streamUsage",
+          "address": "0x665638",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_streamUsage",
+          "address": "0x6659cc",
+          "type": "setter"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "streamUsage",
+          "getterAddress": "0x665638",
+          "setterAddress": "0x6659cc"
+        }
+      ]
+    },
+    {
+      "className": "TPOnInfoParam",
+      "constructor": {
+        "address": "0x634f9c"
+      },
+      "methods": [
+        {
+          "methodName": "get_strParam1",
+          "address": "0x6372b0",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_strParam1",
+          "address": "0x637718",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_longParam1",
+          "address": "0x635c20",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_longParam1",
+          "address": "0x635fdc",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_floatParam2",
+          "address": "0x636edc",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_floatParam2",
+          "address": "0x6370c4",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_strParam2",
+          "address": "0x637bac",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_strParam2",
+          "address": "0x637eb0",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_longParam2",
+          "address": "0x63638c",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_longParam2",
+          "address": "0x636574",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_floatParam1",
+          "address": "0x636760",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_floatParam1",
+          "address": "0x636b20",
+          "type": "setter"
+        },
+        {
+          "methodName": "get_objParam",
+          "address": "0x634d50",
+          "type": "getter"
+        },
+        {
+          "methodName": "set_objParam",
+          "address": "0x634e90",
+          "type": "setter"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "strParam1",
+          "getterAddress": "0x6372b0",
+          "setterAddress": "0x637718"
+        },
+        {
+          "propertyName": "longParam1",
+          "getterAddress": "0x635c20",
+          "setterAddress": "0x635fdc"
+        },
+        {
+          "propertyName": "floatParam2",
+          "getterAddress": "0x636edc",
+          "setterAddress": "0x6370c4"
+        },
+        {
+          "propertyName": "strParam2",
+          "getterAddress": "0x637bac",
+          "setterAddress": "0x637eb0"
+        },
+        {
+          "propertyName": "longParam2",
+          "getterAddress": "0x63638c",
+          "setterAddress": "0x636574"
+        },
+        {
+          "propertyName": "floatParam1",
+          "getterAddress": "0x636760",
+          "setterAddress": "0x636b20"
+        },
+        {
+          "propertyName": "objParam",
+          "getterAddress": "0x634d50",
+          "setterAddress": "0x634e90"
+        }
+      ]
+    },
+    {
+      "className": "TPHdrCapability",
+      "constructor": {
+        "address": "0x66c6f0"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPSubtitleFrameBuffer",
+      "constructor": {
+        "address": "0x660434"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPDownloadProgressInfo",
+      "constructor": {
+        "address": "0x641e98"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPSnapshotParam",
+      "constructor": {
+        "address": "0x65baf8"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "ITPLocalProxy",
+      "constructor": {
+        "address": "0x67f4b8"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "TPError",
+      "constructor": {
+        "address": "0x63e7c4"
+      },
+      "methods": [],
+      "properties": []
+    },
+    {
+      "className": "ITPMediaAssetRequest",
+      "constructor": {
+        "address": "0x676490"
+      },
+      "methods": [
+        {
+          "methodName": "updateMediaAsset",
+          "address": "0x676260",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "updateMediaAsset",
+          "methodAddress": "0x676260"
+        }
+      ]
+    },
+    {
+      "className": "TPRichMediaData",
+      "constructor": {
+        "address": "0x68b248"
+      },
+      "methods": [],
+      "properties": []
+    }
+  ],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 58,
+    "propertyRegistrationsCount": 2,
+    "classRegistrationsCount": 56,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-28T01:14:18.024742400Z"
+  }
+}

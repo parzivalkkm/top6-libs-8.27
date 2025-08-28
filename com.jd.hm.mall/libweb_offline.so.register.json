@@ -1,0 +1,87 @@
+{
+  "soName": "unknown",
+  "moduleName": "jd_hybrid",
+  "propertyRegistrations": [
+    {
+      "propertyName": "init",
+      "address": "0x10a930",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "startDownload",
+      "address": "0x10ae58",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "setLogAdapter",
+      "address": "0x10bb84",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "updateUAandCookies",
+      "address": "0x10b5f4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "getOtherConfig",
+      "address": "0x10b9fc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "onStartPage",
+      "address": "0x10b1bc",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "setConfig",
+      "address": "0x10b458",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "searchLocalFile",
+      "address": "0x10af7c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "updateNetworkStatus",
+      "address": "0x10b76c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "updateModuleWithMeta",
+      "address": "0x10ad34",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "registerReloadWeb",
+      "address": "0x10b864",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "onEndPage",
+      "address": "0x10b334",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "loadBuildIn",
+      "address": "0x10ac5c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "updateModule",
+      "address": "0x10acc8",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 14,
+    "propertyRegistrationsCount": 14,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-27T09:35:38.341603Z"
+  }
+}

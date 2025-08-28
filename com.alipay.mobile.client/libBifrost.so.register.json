@@ -1,0 +1,119 @@
+{
+  "soName": "unknown",
+  "moduleName": "Bifrost",
+  "propertyRegistrations": [
+    {
+      "propertyName": "P\u0010d",
+      "address": "0x1911968",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "B\u0010d",
+      "address": "0x19118e0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "pcj",
+      "address": "0x1911ba8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "pMf",
+      "address": "0x19119a8",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "createWebSocket",
+      "address": "0x14b682c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "T\u003ce",
+      "address": "0x1911860",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "send",
+      "address": "0x14b6f9c",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "close",
+      "address": "0x14b7758",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "V\u003ce",
+      "address": "0x19118a0",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "connect",
+      "address": "0x14b68d4",
+      "resolvedFrom": "napi_define_properties"
+    },
+    {
+      "propertyName": "on",
+      "address": "0x14b8108",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [
+    {
+      "className": "WebSocket",
+      "constructor": {
+        "address": "0x14b7a6c"
+      },
+      "methods": [
+        {
+          "methodName": "send",
+          "address": "0x14b6f9c",
+          "type": "method"
+        },
+        {
+          "methodName": "close",
+          "address": "0x14b7758",
+          "type": "method"
+        },
+        {
+          "methodName": "connect",
+          "address": "0x14b68d4",
+          "type": "method"
+        },
+        {
+          "methodName": "on",
+          "address": "0x14b8108",
+          "type": "method"
+        }
+      ],
+      "properties": [
+        {
+          "propertyName": "send",
+          "methodAddress": "0x14b6f9c"
+        },
+        {
+          "propertyName": "close",
+          "methodAddress": "0x14b7758"
+        },
+        {
+          "propertyName": "connect",
+          "methodAddress": "0x14b68d4"
+        },
+        {
+          "propertyName": "on",
+          "methodAddress": "0x14b8108"
+        }
+      ]
+    }
+  ],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 12,
+    "propertyRegistrationsCount": 11,
+    "classRegistrationsCount": 1,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-28T07:49:05.371911Z"
+  }
+}

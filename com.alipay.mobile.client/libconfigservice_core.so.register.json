@@ -1,0 +1,22 @@
+{
+  "soName": "unknown",
+  "moduleName": "configservice_core",
+  "propertyRegistrations": [
+    {
+      "propertyName": "\u001e\u0019\u0011",
+      "address": "0x1b44a0",
+      "resolvedFrom": "napi_define_properties"
+    }
+  ],
+  "classRegistrations": [],
+  "functionRegistrations": [],
+  "statistics": {
+    "totalNAPICallsProcessed": 0,
+    "successfullyProcessed": 0,
+    "totalRegistrationsFound": 1,
+    "propertyRegistrationsCount": 1,
+    "classRegistrationsCount": 0,
+    "functionRegistrationsCount": 0,
+    "analysisTimestamp": "2025-08-28T08:29:46.499578Z"
+  }
+}
