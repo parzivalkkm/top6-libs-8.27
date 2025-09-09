@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>鸿蒙应用跨语言分析工具</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
+<!-- Prism.js for syntax highlighting -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#2563eb',
+secondary: '#64748b'
+},
+borderRadius: {
+'none': '0px',
+'sm': '2px',
+DEFAULT: '4px',
+'md': '8px',
+'lg': '12px',
+'xl': '16px',
+'2xl': '20px',
+'3xl': '24px',
+'full': '9999px',
+'button': '4px'
+}
+}
+}
+}
+</script>
+<style>
+body {
+min-height: 1024px;
+background-color: #f8fafc;
+}
+.code-area {
+font-family: 'Consolas', monospace;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+/* 自定义代码高亮样式 */
+.code-highlight {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 16px;
+  overflow-x: auto;
+}
+
+.code-highlight pre {
+  margin: 0;
+  background: none;
+  padding: 0;
+}
+
+/* ArkIR 语法高亮 */
+.arkir-keyword { color: #0066cc; font-weight: bold; }
+.arkir-function { color: #d73a49; font-weight: bold; }
+.arkir-variable { color: #6f42c1; }
+.arkir-string { color: #032f62; }
+.arkir-comment { color: #6a737d; font-style: italic; }
+.arkir-operator { color: #e36209; }
+.arkir-type { color: #005cc5; }
+
+/* SumIR 语法高亮 */
+.sumir-call { background: #e3f2fd; border-left: 4px solid #2196f3; padding: 8px 12px; margin: 2px 0; border-radius: 4px; }
+.sumir-alloc { background: #e8f5e8; border-left: 4px solid #4caf50; padding: 8px 12px; margin: 2px 0; border-radius: 4px; }
+.sumir-get { background: #fff3e0; border-left: 4px solid #ff9800; padding: 8px 12px; margin: 2px 0; border-radius: 4px; }
+.sumir-log { background: #e3f2fd; border-left: 4px solid #2196f3; padding: 8px 12px; margin: 2px 0; border-radius: 4px; }
+.sumir-ret { background: #e8f5e8; border-left: 4px solid #4caf50; padding: 8px 12px; margin: 2px 0; border-radius: 4px; }
+
+/* SumIR 语法元素高亮 */
+.sumir-keyword { color: #8e24aa; font-weight: bold; }
+.sumir-function { color: #d84315; font-weight: bold; }
+.sumir-variable { color: #5e35b1; }
+.sumir-type { color: #1565c0; font-weight: 500; }
+.sumir-param { color: #2e7d32; }
+.sumir-arrow { color: #ff6f00; font-weight: bold; }
+.sumir-number { color: #c62828; }
+.sumir-operator { color: #37474f; font-weight: bold; }
+
+/* 特殊高亮 */
+.cross-lang-call {
+  background: linear-gradient(90deg, #fee2e2 0%, #fecaca 100%);
+  border: 2px solid #ef4444;
+  border-radius: 6px;
+  padding: 2px 6px;
+  font-weight: bold;
+  position: relative;
+  animation: pulse-glow 2s infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 5px rgba(239, 68, 68, 0.5); }
+  50% { box-shadow: 0 0 15px rgba(239, 68, 68, 0.8); }
+}
+
+.parameter-highlight { 
+  background: #dbeafe; 
+  padding: 1px 4px; 
+  border-radius: 3px; 
+  font-weight: 500;
+}
+
+/* 代码动画效果 */
+.code-animate {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+</style>
+</head>
+<body>
+<div class="mx-auto max-w-[1440px] min-h-screen p-6">
+<header class="mb-6">
+<h1 class="text-2xl font-bold text-gray-900">鸿蒙跨语言分析工具 —— HARMOBRIDGE</h1>
+</header>
+<main class="flex gap-6">
+<div class="w-[30%]">
+<div class="bg-white rounded-lg shadow-sm p-6 mb-6">
+<h2 class="text-xl font-semibold mb-4">项目属性配置</h2>
+<div class="space-y-4">
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-1">项目地址</label>
+<div class="relative">
+<input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-button focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入项目地址">
+<i class="fas fa-folder absolute right-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-1">项目属性</label>
+<div class="relative">
+<button class="w-full px-4 py-2 bg-white border border-gray-300 rounded-button text-left focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent flex justify-between items-center">
+<span>二进制</span>
+<i class="fas fa-chevron-down text-gray-400"></i>
+</button>
+</div>
+</div>
+<div class="flex items-center">
+<input type="checkbox" id="taint-analysis" class="w-4 h-4 text-primary border-gray-300 rounded focus:ring-primary">
+<label for="taint-analysis" class="ml-2 text-sm font-medium text-gray-700">污点分析</label>
+</div>
+<div class="flex gap-4">
+<button class="flex-1 px-6 py-2 bg-primary text-white rounded-button hover:bg-primary/90 whitespace-nowrap">
+开始分析
+</button>
+<button class="flex-1 px-6 py-2 bg-white border border-gray-300 text-gray-700 rounded-button hover:bg-gray-50 whitespace-nowrap">
+停止分析
+</button>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm p-6 mb-6">
+<h2 class="text-xl font-semibold mb-4">跨语言调用列表</h2>
+<div class="space-y-3">
+<div class="bg-primary/5 border-2 border-primary rounded-lg p-4 cursor-pointer hover:bg-primary/10">
+<div class="font-bold text-gray-900">@nodeapiFunctionleak(string)</div>
+</div>
+<div class="border border-gray-200 rounded-lg p-4 cursor-pointer hover:bg-gray-50">
+<div class="font-bold text-gray-900">@nodeapiFunctionAdd(number, number)</div>
+</div>
+<div class="border border-gray-200 rounded-lg p-4 cursor-pointer hover:bg-gray-50">
+<div class="font-bold text-gray-900">@nodeapiFunctionsetArray(number[], number)</div>
+</div>
+<button class="w-full py-2 text-sm text-gray-600 border border-gray-200 rounded-lg hover:bg-gray-50 flex items-center justify-center gap-1">
+<span>显示更多</span>
+<i class="fas fa-chevron-down"></i>
+</button>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm p-6">
+<h2 class="text-xl font-semibold mb-4">绑定信息</h2>
+<div class="overflow-x-auto">
+<table class="min-w-full divide-y divide-gray-200">
+<tbody class="bg-white divide-y divide-gray-200">
+<tr>
+<th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-1/2">ArkTS 导出名</th>
+<td class="px-4 py-3 text-sm text-gray-900 w-1/2">NodeApiClass.leakByLog</td>
+</tr>
+<tr>
+<th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Native 符号</th>
+<td class="px-4 py-3 text-sm text-gray-900">_Z4LeakPKc</td>
+</tr>
+<tr>
+<th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">SO@偏移</th>
+<td class="px-4 py-3 text-sm text-gray-900">libdemo.so@0x1A20</td>
+</tr>
+<tr>
+<th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">注册方式</th>
+<td class="px-4 py-3 text-sm text-gray-900">属性描述符</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="w-[75%] bg-white rounded-lg shadow-sm p-6 relative">
+<h2 class="text-xl font-semibold mb-4">跨语言调用点-被调函数详情</h2>
+<div class="flex gap-6 mb-6">
+<div class="w-1/2">
+<label class="block text-sm font-medium text-gray-700 mb-2">调用点（Callsite）</label>
+<div class="relative">
+<button class="w-full px-4 py-2 bg-white border border-gray-300 rounded-button text-left focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent flex justify-between items-center">
+<span>EntryAbility.onCreate</span>
+<i class="fas fa-chevron-down text-gray-400"></i>
+</button>
+</div>
+</div>
+<div class="w-1/2">
+<label class="block text-sm font-medium text-gray-700 mb-2">跨语言调用</label>
+<div class="relative">
+<button class="w-full px-4 py-2 bg-white border border-gray-300 rounded-button text-left focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent flex justify-between items-center">
+<span>@nodeapiFunctionleak(string)</span>
+<i class="fas fa-chevron-down text-gray-400"></i>
+</button>
+</div>
+</div>
+</div>
+<div class="space-y-6 relative">
+<!-- Callsite section -->
+<div class="w-full code-animate">
+<div class="bg-gray-50 rounded-lg p-4">
+<h3 class="text-sm font-medium text-gray-700 mb-2">调用点Callsite（ArkIR）</h3>
+<div class="code-highlight">
+<pre class="code-area text-sm leading-6"><code><span class="arkir-function">onCreate</span>(<span class="arkir-variable parameter-highlight">want</span>: <span class="arkir-type">Want</span>, <span class="arkir-variable parameter-highlight">launchParam</span>: <span class="arkir-type">AbilityConstant.LaunchParam</span>): <span class="arkir-type">void</span> {
+    <span class="arkir-variable">want</span> = <span class="arkir-keyword">parameter0</span>: <span class="arkir-type">Want</span>
+    <span class="arkir-variable">launchParam</span> = <span class="arkir-keyword">parameter1</span>: <span class="arkir-type">AbilityConstant.LaunchParam</span>
+    <span class="arkir-keyword">this</span> = <span class="arkir-keyword">this</span>: <span class="arkir-type">EntryAbility</span>
+    <span class="arkir-keyword">staticinvoke</span> <span class="arkir-function">hilog.%dflt.info</span>(<span class="arkir-string">0</span>, <span class="arkir-string">'testTag'</span>, <span class="arkir-string">'%{public}s'</span>, <span class="arkir-string">'Ability onCreate'</span>)
+    <span class="arkir-variable">%0</span> = <span class="arkir-keyword">staticinvoke</span> <span class="arkir-function">geoLocationManager.%dflt.getLastLocation</span>()
+    <span class="arkir-variable">info</span> = <span class="arkir-keyword">instanceinvoke</span> <span class="arkir-function">JSON.&lt;@%unk/%unk: .stringify()&gt;</span>(<span class="arkir-variable">%0</span>)
+    <span class="cross-lang-call" id="red-highlight">staticinvoke @nodeapiClassentry.@nodeapiFunctionleak(info)</span>
+    <span class="arkir-keyword">return</span>
+}</code></pre>
+</div>
+</div>
+</div>
+<!-- Cross-language function section -->
+<div class="w-full relative code-animate" style="animation-delay: 0.3s;">
+<div class="bg-gray-50 rounded-lg p-4">
+<h3 class="text-sm font-medium text-gray-700 mb-4" id="cross-lang-title">C/C++侧函数（SumIR -> ArkIR）</h3>
+<div class="flex gap-6">
+<div class="w-1/2">
+<div class="bg-gray-100 rounded-lg p-4">
+<h4 class="text-xs font-medium text-gray-600 mb-2">函数语义摘要（SumIR）</h4>
+<div class="bg-white rounded p-4 space-y-1">
+<div class="text-sm py-1 font-mono"><span class="sumir-function">leak</span>(<span class="sumir-type">napi_env</span> <span class="sumir-param">%a1</span>, <span class="sumir-type">napi_callback_info</span> <span class="sumir-param">%a2</span>)</div>
+<div class="sumir-call text-sm"><span class="sumir-keyword">CALL</span> <span class="sumir-function">napi_get_cb_info</span> <span class="sumir-param">%a1</span>, <span class="sumir-param">%a2</span>, <span class="sumir-variable">top</span>, <span class="sumir-variable">top</span>, <span class="sumir-variable">top</span>, <span class="sumir-variable">top</span> <span class="sumir-arrow">-></span> <span class="sumir-variable">%0</span>:<span class="sumir-number">-1</span>, <span class="sumir-variable">%1</span>:<span class="sumir-number">3</span></div>
+<div class="sumir-alloc text-sm"><span class="sumir-keyword">CALL</span> <span class="sumir-function">operator.new[]</span> <span class="sumir-type">long</span> <span class="sumir-number">256</span> <span class="sumir-arrow">-></span> <span class="sumir-variable">%2</span>:<span class="sumir-number">-1</span></div>
+<div class="sumir-get text-sm"><span class="sumir-keyword">CALL</span> <span class="sumir-function">napi_get_value_string_utf8</span> <span class="sumir-param">%a1</span>, <span class="sumir-variable">%1</span>, <span class="sumir-variable">%2</span>, <span class="sumir-type">long</span> <span class="sumir-number">-1</span>, <span class="sumir-variable">top</span> <span class="sumir-arrow">-></span> <span class="sumir-variable">%3</span>:<span class="sumir-number">-1</span>, <span class="sumir-variable">%4</span>:<span class="sumir-number">4</span></div>
+<div class="sumir-log text-sm"><span class="sumir-keyword">CALL</span> <span class="sumir-function">OH_LOG_Print</span> <span class="sumir-type">long</span> <span class="sumir-number">0</span>, <span class="sumir-type">long</span> <span class="sumir-number">4</span>, <span class="sumir-type">long</span> <span class="sumir-number">0</span>, <span class="sumir-variable">null</span>, <span class="sumir-type">char*</span> <span class="arkir-string">"Leak LastLocation %{public}s"</span>, <span class="sumir-variable">%2</span> <span class="sumir-arrow">-></span> <span class="sumir-variable">%5</span>:<span class="sumir-number">-1</span></div>
+<div class="sumir-ret text-sm"><span class="sumir-keyword">RET</span> <span class="sumir-variable">top</span></div>
+</div>
+</div>
+</div>
+<div class="w-1/2">
+<div class="bg-gray-100 rounded-lg p-4">
+<h4 class="text-xs font-medium text-gray-600 mb-2">重建函数体（ArkIR）</h4>
+<div class="bg-white rounded p-4 space-y-1">
+<div class="text-sm py-1 font-mono"><span class="arkir-function">@nodeapiFunctionleak</span>(<span class="arkir-variable parameter-highlight">a</span>: <span class="arkir-type">string</span>): <span class="arkir-type">void</span> </div>
+<div class="sumir-call text-sm"><span class="arkir-variable">%1</span> = <span class="arkir-keyword">parameter0</span>: <span class="arkir-type">string</span><br/><span class="arkir-keyword">this</span> = <span class="arkir-keyword">this</span>: <span class="arkir-type">@nodeapiClassentry</span></div>
+<div class="sumir-alloc text-sm"><span class="arkir-variable">%alloc_0</span> = <span class="arkir-string">''</span></div>
+<div class="sumir-get text-sm min-h-[3.5rem] flex items-center"><span class="arkir-variable">%alloc_0</span> = <span class="arkir-variable">%1</span></div>
+<div class="sumir-log text-sm"><span class="arkir-keyword">staticinvoke</span> <span class="arkir-function">hilog.%dflt.info</span>(<span class="arkir-string">0</span>, <span class="arkir-string">null</span>,<br/><span class="arkir-string">'Leak LastLocation %{public}s'</span>, <span class="arkir-variable">%alloc_0</span>)</div>
+<div class="sumir-ret text-sm"><span class="arkir-keyword">return</span> <span class="arkir-type">void</span></div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+
+<script>
+// 添加一些交互效果
+document.addEventListener('DOMContentLoaded', function() {
+    // 高亮跨语言调用的交互效果
+    const crossLangCall = document.getElementById('red-highlight');
+    const crossLangTitle = document.getElementById('cross-lang-title');
+    
+    if (crossLangCall && crossLangTitle) {
+        crossLangCall.addEventListener('mouseenter', function() {
+            crossLangTitle.style.color = '#ef4444';
+            crossLangTitle.style.fontWeight = 'bold';
+        });
+        
+        crossLangCall.addEventListener('mouseleave', function() {
+            crossLangTitle.style.color = '';
+            crossLangTitle.style.fontWeight = '';
+        });
+    }
+    
+    // 代码区域的鼠标悬停效果
+    const codeHighlights = document.querySelectorAll('.code-highlight');
+    codeHighlights.forEach(highlight => {
+        highlight.addEventListener('mouseenter', function() {
+            this.style.transform = 'scale(1.02)';
+            this.style.transition = 'transform 0.2s ease';
+        });
+        
+        highlight.addEventListener('mouseleave', function() {
+            this.style.transform = 'scale(1)';
+        });
+    });
+});
+</script>
+
+</body>
+</html>
